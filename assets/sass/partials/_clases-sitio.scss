@@ -1,0 +1,32 @@
+body{
+//padding-top por el alto de la barra de menu
+//padding-top: 100px;
+background-color: #eee;
+
+}
+.section{
+	display: block;
+	min-height: 820px;
+}
+
+//centramos la navegacion
+.navbar{
+	&.center{
+		.navbar-inner{
+			text-align: center;
+			.nav{
+				float: none;
+				display:inline-block;
+				vertical-align: middle;
+			}
+		}
+	}
+}
+/*--*/
+
+
+
+
+
+
+

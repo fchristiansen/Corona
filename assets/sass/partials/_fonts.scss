@@ -1,0 +1,27 @@
+//Tipografía
+//@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,700");
+
+$font: 'Raleway', Helvetica, Arial, sans-serif;
+
+$regular:400;
+$medium:500;
+$semibold:600;
+$bold:700;
+$extra:800;
+
+
+//Rems
+//Set a rem font size with pixel fallback
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return $remSize * 1rem;
+}
+
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}
+
+
+
+
