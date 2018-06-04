@@ -4,8 +4,17 @@
 		redes sociales 4
 		legales | contacto
 		copyright
+<a id="to-top">	scroll to up</a>
+<div class="legal">
+	<a href="" target="_blank">TÉRMINOS Y CONDICIONES</a>
+BEBER CON MODERACIÓN. PROHIBIDA SU VENTA A MENORES DE 18 AÑOS.
+FAVOR NO COMPARTIR CONTENIDO CON MENORES DE EDAD.
+CERVEZA CORONA 2018
+</div>
 
-	<a id="to-top">	scroll to up</a>
+
+
+
 
 	</footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

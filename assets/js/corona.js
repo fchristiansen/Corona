@@ -90,13 +90,8 @@ $(window).resize(function() {
    		 $('.navbar-inner ul li a').on('click', function(){
             $('button.hamburger').click();
         });
-
 	}
-
-
-
 /*--*/
-
 
 $(window).on('scroll', function(event){
    var scrollPos = $(document).scrollTop();

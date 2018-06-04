@@ -23,14 +23,13 @@
 	border: none;
 	margin-bottom: 0;
 	top:-100px;
-
 	transition:all 0.4s ease-out;
 	&.show-nav{
 		top:0;
 	}
-	// @media(max-width:991px){
-	// 	display: none;
-	// }
+	@media(max-width:991px){
+		//min-height:100vh;
+	}
 
 	#navbar{
 		margin-top:25px;
@@ -59,19 +58,35 @@
 					color: white;
 					text-transform: uppercase;
 					transition: all .3s ease-out;
+					background: none;
+					background-position: bottom;
 					&:hover{
 						color: $amarillo;
+						background: url('../img/underline.png') repeat-x;
+						background-position: bottom;
+						@media(max-width: 991px){
+							background: none;
+						}
 					}
+				}
+				@media(max-width: 991px){
+						background: url('../img/underline.png') repeat-x;
+						background-position: top;
+						margin-right: auto;
+						margin-left: auto;
+						margin-bottom: 20px;
+						padding: 20px 0 0 0;
+						&:first-child{
+							background:none;
+							padding:0;
+						}
+						@media(max-width:991px){
+							margin-bottom: 15px;
+							padding: 15px 0 0 0;
+						}
 				}
 			}
 		}
-	}
-}
-
-#nav_mobile{
-//	display:none;
-	@media(max-width:991px){
-		display: block;
 	}
 }
 

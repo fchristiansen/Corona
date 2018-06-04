@@ -1,4 +1,14 @@
 
+.navbar-collapse { max-height: 100% !important; }
+// @media (max-width: 767px) /* @grid-float-breakpoint -1 */
+// {
+//     .navbar-fixed-top
+//     {
+// 	    position: absolute;
+// 	    top: 0;
+//     }
+// }
+
 .center-block{
 	display: table;
 	margin: 0 auto;
