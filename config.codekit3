@@ -23,6 +23,16 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
+	"\/assets\/css\/animate.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/animate-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/assets\/css\/custom.css": {
 		"aP": 1,
 		"bl": 0,
@@ -61,6 +71,26 @@
 		"oA": 1,
 		"oAP": "\/assets\/css\/hamburgers.min-min.css",
 		"oF": 1,
+		"oS": 3
+		},
+	"\/assets\/css\/owl.carousel.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/owl.carousel-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/assets\/css\/owl.theme.default.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/owl.theme.default-min.css",
+		"oF": 0,
 		"oS": 3
 		},
 	"\/assets\/fonts\/fontawesome-webfont.eot": {
@@ -156,6 +186,14 @@
 		"oF": 1,
 		"oS": 3
 		},
+	"\/assets\/img\/ajax-loader.gif": {
+		"ft": 4194304,
+		"iS": 3208,
+		"oA": 0,
+		"oAP": "\/assets\/img\/ajax-loader.gif",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/img\/favicon.png": {
 		"ft": 32768,
 		"iS": 4524,
@@ -197,6 +235,61 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/assets\/img\/owl.video.play.png": {
+		"ft": 32768,
+		"iS": 4976,
+		"oA": 0,
+		"oAP": "\/assets\/img\/owl.video.play.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/s1.png": {
+		"ft": 32768,
+		"iS": 37289,
+		"oA": 0,
+		"oAP": "\/assets\/img\/s1.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/s2.png": {
+		"ft": 32768,
+		"iS": 34930,
+		"oA": 0,
+		"oAP": "\/assets\/img\/s2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/s3.png": {
+		"ft": 32768,
+		"iS": 18730,
+		"oA": 0,
+		"oAP": "\/assets\/img\/s3.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/s4.png": {
+		"ft": 32768,
+		"iS": 25505,
+		"oA": 0,
+		"oAP": "\/assets\/img\/s4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/to-bottom.png": {
 		"ft": 32768,
@@ -250,6 +343,16 @@
 		"oAP": "\/assets\/js\/corona-min.js",
 		"oF": 1,
 		"sC": 0,
+		"tS": 0
+		},
+	"\/assets\/js\/owl.carousel.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/owl.carousel.min-min.js",
+		"oF": 0,
+		"sC": 1,
 		"tS": 0
 		},
 	"\/assets\/sass\/.sass-cache\/1a31a33e10be51f9353da414a1978ded26936e8b\/_base.scssc": {
@@ -1352,6 +1455,13 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/assets\/video\/video-intro-xs.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/video\/video-intro-xs.mp4",
+		"oF": 0
 		},
 	"\/assets\/video\/video-intro.jpg": {
 		"ft": 16384,

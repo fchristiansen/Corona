@@ -149,28 +149,34 @@ header { position: relative; }
   #main_nav #navbar ul li:first-child { background: none; padding: 0; } }
 @media (max-width: 991px) and (max-width: 991px) { #main_nav #navbar ul li { margin-bottom: 15px; padding: 15px 0 0 0; } }
 
-#video_top { position: relative; }
-#video_top video#video-intro { width: 100%; max-width: 1920px; height: auto; }
+#video_top { position: relative; overflow: hidden; }
+#video_top video#video-intro-lg { width: 100%; max-width: 1920px; height: auto; }
+@media (max-width: 767px) { #video_top video#video-intro-lg { display: none; } }
+#video_top video#video-intro-xs { display: none; }
+@media (max-width: 768px) { #video_top video#video-intro-xs { display: block; } }
 #video_top .to-bottom { position: absolute; left: 50%; -webkit-transform: translate(-50%, 0); transform: translate(-50%, 0); bottom: 15vh; z-index: 10000; }
 #video_top .to-bottom a { display: block; cursor: pointer; text-decoration: none; text-align: center; }
 #video_top .to-bottom a p { font-family: 400; font-size: 14px; font-size: 0.875rem; color: white; text-transform: uppercase; text-align: center; letter-spacing: 2px; margin-bottom: 0px; }
+@media (max-width: 1024px) { #video_top .to-bottom a img { max-width: 50px; height: auto; } }
+@media (max-width: 767px) { #video_top .to-bottom a img { max-width: 30px; } }
+@media (max-width: 1024px) { #video_top .to-bottom { bottom: 30px; } }
+@media (max-width: 768px) { #video_top .to-bottom { bottom: 10px; } }
+@media (max-width: 767px) { #video_top .to-bottom { bottom: 10px; } }
+#video_top .slider-video { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); top: 42%; }
+#video_top .slider-video .owl-item img { max-width: 900px; height: auto; margin: 0 auto; }
 
-form#main-form p { font-family: 'Futura-Bold', helvetica, arial, sans-serif; }
-form#main-form .form-group { margin-bottom: 30px; max-width: 360px; margin-left: auto; margin-right: auto; }
-form#main-form .form-group label { margin-bottom: 20px; font-family: 'Futura-Italic', helvetica, arial, sans-serif; font-size: 15px; }
-form#main-form .form-group.captcha-container { border: 1px solid white; padding: 20px; text-align: center; }
-@media (max-width: 767px) { form#main-form .form-group.captcha-container #captchaimage img { margin-right: 0; margin-bottom: 20px; } }
-form#main-form .form-group #email-error.error { margin-top: 20px; color: tomato; }
-form#main-form .form-group #captcha-error.error { margin-top: 20px; color: tomato; }
-form#main-form .form-group .form-control { background-color: transparent; color: white; text-transform: uppercase; padding-left: 20px; border: none; border-left: 1px solid white; border-radius: 0; border-bottom: 1px solid white; color: white; font-family: 'Bebas', helvetica, arial, sans-serif; font-size: 20px; -webkit-box-shadow: none; box-shadow: none; }
-form#main-form .form-group .form-control.input-personas { border: 1px solid white; border-left: none; border-right: none; display: block; margin-left: auto; margin-right: auto; max-width: 360px; }
-form#main-form .form-group ::-webkit-input-placeholder { /* Chrome/Opera/Safari */ color: white; font-family: 'Futura-Italic', helvetica, arial, sans-serif; font-size: 14px; text-transform: capitalize; }
-form#main-form .form-group ::-moz-placeholder { /* Firefox 19+ */ color: white; font-family: 'Futura-Italic', helvetica, arial, sans-serif; font-size: 14px; text-transform: capitalize; }
-form#main-form .form-group :-moz-placeholder { /* Firefox 18- */ color: white; font-family: 'Futura-Italic', helvetica, arial, sans-serif; font-size: 14px; text-transform: capitalize; }
-form#main-form .form-group :-ms-input-placeholder { /* IE 10+ */ color: white; font-family: 'Futura-Italic', helvetica, arial, sans-serif; font-size: 14px; text-transform: capitalize; }
-form#main-form .form-group .input-group { width: 100%; }
-form#main-form .form-group .input-group .bootstrap-touchspin-up, form#main-form .form-group .input-group .bootstrap-touchspin-down { border: 1px solid white; border-radius: 0; background-color: #921111; }
-form#main-form .btn-enviar { background-color: #fff; color: red; text-transform: uppercase; padding: 10px 60px 5px 60px; border-radius: 0; border: none; font-family: 'Bebas', helvetica, arial, sans-serif; font-size: 30px; }
+section#contacto { min-height: 480px; background-color: white; position: relative; padding-top: 90px; }
+@media (max-width: 767px) { section#contacto { padding-top: 50px; min-height: 450px; } }
+section#contacto h2 { font-family: "Raleway", Helvetica, Arial, sans-serif; font-size: 16px; font-size: 1rem; color: #11233a; text-transform: uppercase; margin-bottom: 30px; font-weight: 700; }
+section#contacto form#mainContact .form-group { margin-bottom: 30px; }
+section#contacto form#mainContact .form-group textarea { resize: none; min-height: 170px; padding: 15px; }
+section#contacto form#mainContact .form-group #email-error.error { margin-top: 20px; color: tomato; }
+section#contacto form#mainContact .form-group .form-control { background-color: white; color: #11233a; text-transform: uppercase; padding-left: 20px; border-radius: 0; border: 1px solid #11233a; font-family: "Raleway", Helvetica, Arial, sans-serif; font-size: 16px; -webkit-box-shadow: none; box-shadow: none; }
+section#contacto form#mainContact .form-group ::-webkit-input-placeholder { color: #11233a; font-family: "Raleway", Helvetica, Arial, sans-serif; font-size: 16px; text-transform: uppercase; }
+section#contacto form#mainContact .form-group ::-moz-placeholder { color: #11233a; font-family: "Raleway", Helvetica, Arial, sans-serif; font-size: 16px; text-transform: uppercase; }
+section#contacto form#mainContact .form-group :-moz-placeholder { color: #11233a; font-family: "Raleway", Helvetica, Arial, sans-serif; font-size: 16px; text-transform: uppercase; }
+section#contacto form#mainContact .form-group :-ms-input-placeholder { color: #11233a; font-family: "Raleway", Helvetica, Arial, sans-serif; font-size: 16px; text-transform: uppercase; }
+section#contacto form#mainContact .btn-enviar { background-color: #ffbb00; color: white; text-transform: uppercase; padding: 10px 60px 5px 60px; border-radius: 0; border: none; font-family: "Raleway", Helvetica, Arial, sans-serif; font-weight: 700; font-size: 14px; width: 100%; }
 
 header { position: relative; }
 

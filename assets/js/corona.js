@@ -1,3 +1,28 @@
+
+//slider sobre video
+$('.slider-video').owlCarousel({
+	animateOut: 'fadeOutLeft',
+    animateIn: 'fadeInRight',
+    loop:true,
+    margin:0,
+    nav:false,
+    dots: false,
+    nav: false,
+    autoplay: true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+});
+
+
 //modal altura  máxima
 
 function setModalMaxHeight(element) {
