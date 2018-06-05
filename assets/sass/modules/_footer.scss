@@ -1,0 +1,138 @@
+footer{
+	min-height:490px;
+	background-color: #fff;
+	text-align:center;
+	padding:30px;
+	position:relative;
+	@media(max-width:767px){
+		padding-left:  15px;
+		padding-right: 15px;
+	}
+	.footer-inner{
+		@include centerer(true, true);
+		width: 90%;
+		@media(max-width:767px){
+			position: relative;
+			top: auto;
+			left: auto;
+			transform: none;
+			margin-top: 20px;
+			display:table;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	a{
+		&#to-top{
+			display:block;
+			cursor:pointer;
+			img{
+				max-width: 40px;
+				height: auto;
+			}
+
+
+		}
+	}
+	img{
+		&.logo-footer{
+			width: 180px;
+			height: auto;
+			margin-bottom: 30px;
+		}
+	}
+	.rrss{
+		margin-bottom: 30px;
+		.circle {
+			    background-color:#fff;
+			    border:1px solid $azul;
+			    height:50px;
+			    border-radius:50%;
+			    -moz-border-radius:50%;
+			    -webkit-border-radius:50%;
+			    width:50px;
+			    .fa{
+			    	font-size: 26px;
+			    	margin-top: 12px;
+			    	@media(max-width:767px){
+			    		font-size:20px;
+			    		margin-top:10px;
+			    	}
+			    }
+			    @media(max-width:767px){
+			    	height: 40px;
+			    	width: 40px;
+			    }
+
+		}
+		ul{
+			//margin: 0;
+			padding-left: 0;
+			list-style-type: none;
+			li{
+				display: inline-block;
+				margin-right: 10px;
+				a{
+					display:block;
+					color: $azul;
+					transition: all 0.325s ease-out;
+					.fa-circle-thin{
+						font-size: 40px;
+					}
+					&:hover{
+						color:#FFC629;
+					}
+				}
+			}
+		}
+	}
+	.legal{
+		ul{
+		//	margin: 0;
+		padding: 0;
+			list-style-type: none;
+			li{
+				display: inline-block;
+				a{
+					font-family: $regular;
+					@include font-size(16px);
+					color: $azul;
+					text-transform: uppercase;
+					text-decoration: none;
+					@media(max-width:767px){
+						@include font-size(13px);
+					}
+				}
+			}
+		}
+		p{
+			font-family: $regular;
+			@include font-size(16px);
+			color: $azul;
+			text-transform: uppercase;
+			text-decoration: none;
+			//max-width: 500px;
+			@media(max-width:767px){
+						@include font-size(13px);
+					}
+		}
+	}
+	.copy{
+			p{
+				font-family: $regular;
+				@include font-size(16px);
+				color: $azul;
+				text-transform: uppercase;
+				text-decoration: none;
+				@media(max-width:767px){
+					@include font-size(13px);
+				}
+			}
+	}
+
+
+}
+
+
+
+

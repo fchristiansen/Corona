@@ -1,0 +1,36 @@
+#video_top{
+	position: relative;
+	//min-height: 800px;
+	 video#video-intro {
+	    width: 100%;
+	    max-width: 1920px;
+	    height: auto;
+	}
+	.to-bottom{
+			@include centerer(true, false);
+			bottom: 15vh;
+			z-index: 10000;
+			//width: 90%;
+			// @media(min-width: 1280px){
+			// 	bottom: 16%;
+			// }
+			a{
+				display: block;
+				cursor: pointer;
+				text-decoration: none;
+				text-align: center;
+				p{
+					font-family: $regular;
+					@include font-size(14px);
+					color: white;
+					text-transform: uppercase;
+					text-align: center;
+					letter-spacing: 2px;
+					margin-bottom: 0px;
+				}
+
+			}
+		}
+
+
+}

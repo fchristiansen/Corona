@@ -12,7 +12,9 @@
 	        <div id="navbar" class="navbar-collapse collapse">
 	        	<div class="navbar-inner">
 	        		<ul class="nav navbar-nav">
-	        			<li class="logo-xs"><img class="img-responsive center-block" src="assets/img/logo-xs.png" alt=""></li>
+	        			<li class="logo">
+	        				<img class="img-responsive center-block" src="assets/img/logo.svg" alt="">
+	        			</li><!-- logo -->
 	        			<li><a href="#home">Home</a></li>
 	        			<li><a href="#productos">productos</a></li>
 	        			<li><a href="#accesorios">accesorios</a></li>
@@ -28,7 +30,16 @@
 		  nav_mobile
 		</nav> -->
 	  	<section id="video_top" class="section">
-	  			<img class="img-responsive" src="https://api.fnkr.net/testimg/1920x800/00CED1/FFF/?text=img+placeholder">
+	  		<div class="to-bottom">
+	  			<a href="#productos">
+	  				<p>saltar intro</p>
+	  				<img src="assets/img/to-bottom.png" alt="">
+	  			</a>
+	  		</div>
+	  		<video poster="assets/video/video-intro.jpg" id="video-intro" preload="auto" playsinline autoplay muted loop>
+			    <source src="assets/video/video-intro2.mp4" type="video/mp4">
+			    <source src="assets/video/video-intro2.webm" type="video/webm">
+			</video>
 	  	</section> <!-- video -->
   	</header>
   	<section id="productos" class="section">
@@ -59,9 +70,10 @@
 		imagen drink + receta drink
 		btn ver video tira modal con el video
 		boton volver blanco -->
-		<img class="img-responsive" src="https://api.fnkr.net/testimg/1920x800/e4e4e4/FFF/?text=img+placeholder">
+		<img class="img-responsive" src="https://api.fnkr.net/testimg/1920x800/e4e4e4/FFF/?text=drinks">
   	</section><!-- drinks -->
   	<section id="parleyvxo" class="section">
+  		<img class="img-responsive" src="https://api.fnkr.net/testimg/1920x800/cccccc/FFF/?text=parley">
 		<section id="parley">
 	<!-- 		btn entrar
 			interior
@@ -79,10 +91,7 @@
 		</section> <!-- vxo -->
   	</section><!-- parleyvxo -->
   	<section id="contacto" class="section">
-  		<img class="img-responsive" src="https://api.fnkr.net/testimg/1920x800/273136/FFF/?text=img+placeholder">
-
-
+  		<img class="img-responsive" src="https://api.fnkr.net/testimg/1920x800/273136/FFF/?text=contacto">
   	</section><!-- contacto -->
-
 
 <?php include('footer.php'); ?>
