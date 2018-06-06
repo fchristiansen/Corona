@@ -1,7 +1,6 @@
 <?php include('header.php'); ?>
   <body>
   	<header id="home">
-
 		<button class="hamburger hamburger--spin" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 		  <span class="hamburger-box">
 		    <span class="hamburger-inner"></span>
@@ -27,7 +26,6 @@
 	      </div>
 	    </nav>
 	  	<section id="video_top" class="section">
-
 	    	 <div class="slider-video owl-carousel owl-theme">
 					<div class="item">
 						<img class="" src="assets/img/s1.png">
@@ -41,26 +39,30 @@
 					<div class="item">
 						<img class="" src="assets/img/s4.png">
 					</div>
-
 	    	</div><!-- slider video -->
 
-	  		<div class="to-bottom">
+			<div class="video-container">
+		  		<video id="video-intro-lg" poster="assets/video/video-intro.jpg" preload="auto" autoplay muted loop>
+				    <source src="assets/video/video-intro.mp4" type="video/mp4">
+				    <source src="assets/video/video-intro.webm" type="video/webm">
+				</video>
+
+		  		<video id="video-intro-xs" poster="assets/video/video-intro-xs.jpg" preload="auto" playsinline autoplay muted loop>
+				    <source src="assets/video/video-intro-xs.mp4" type="video/mp4">
+				    <source src="assets/video/video-intro-xs.webm" type="video/webm">
+				</video>
+
+			</div> <!-- video-container -->
+
+			<div class="to-bottom">
 	  			<a href="#productos">
 	  				<p>saltar intro</p>
 	  				<img src="assets/img/to-bottom.png" alt="">
 	  			</a>
 	  		</div>
 
-	  		<video poster="assets/video/video-intro.jpg" id="video-intro-lg" preload="auto" playsinline autoplay muted loop>
-			    <source src="assets/video/video-intro2.mp4" type="video/mp4">
-			    <source src="assets/video/video-intro2.webm" type="video/webm">
-			</video>
-
-	  		<video poster="assets/video/video-intro.jpg" id="video-intro-xs" preload="auto" playsinline autoplay muted loop>
-			    <source src="assets/video/video-intro-xs.mp4" type="video/mp4">
-			    <source src="assets/video/video-intro-xs.webm" type="video/webm">
-			</video>
 	  	</section> <!-- video_top -->
+
   	</header>
   	<section id="productos" class="section">
 <!--   		tapa intro + slider interno con 4 productos
@@ -140,5 +142,4 @@
   			</form>
   		</div>
   	</section><!-- contacto -->
-
 <?php include('footer.php'); ?>

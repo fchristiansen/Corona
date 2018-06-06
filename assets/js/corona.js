@@ -1,4 +1,7 @@
+//video
 
+
+/*----*/
 //slider sobre video
 $('.slider-video').owlCarousel({
 	animateOut: 'fadeOutLeft',
@@ -21,7 +24,7 @@ $('.slider-video').owlCarousel({
         }
     }
 });
-
+/*----*/
 
 //modal altura  máxima
 

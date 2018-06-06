@@ -1474,18 +1474,11 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/assets\/video\/video-intro2.mp4": {
+	"\/assets\/video\/video-intro.mp4": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/assets\/video\/video-intro2.mp4",
-		"oF": 0
-		},
-	"\/assets\/video\/video-intro2.webm": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/assets\/video\/video-intro2.webm",
+		"oAP": "\/assets\/video\/video-intro.mp4",
 		"oF": 0
 		},
 	"\/footer.php": {
@@ -1507,6 +1500,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/index.php",
+		"oF": 0
+		},
+	"\/index_v2.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/index_v2.php",
 		"oF": 0
 		}
 	},

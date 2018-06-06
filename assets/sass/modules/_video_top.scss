@@ -1,25 +1,47 @@
 
-#video_top{
+
+
+
+section#video_top{
 	position: relative;
 	overflow: hidden;
-	 video#video-intro-lg {
-	    width: 100%;
-	    max-width: 1920px;
-	    height: auto;
-	    @media(max-width:767px){
-			display: none;
-	    }
+	width: 100%;
+	height: 100vh;
+
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+		height: auto;
 	}
-	 video#video-intro-xs {
-		display: none;
-		@media(max-width:768px){
-			display:block;
-		}
+	.video-container {
+	 	 video#video-intro-lg {
+	 	    width: 100%;
+	 	    max-width: 1920px;
+	 	    position: relative;
+			object-fit: cover;
+			object-position: center center;
+	 	    @media(max-width:768px){
+	 			display: none;
+	 	    }
+	 	}
+
+	 	 video#video-intro-xs {
+	 		display: none;
+	 		@media(max-width:768px){
+	 			overflow: hidden;
+				width: 100%;
+				height: 100vh;
+				display:block;
+				object-fit: cover;
+				object-position: center center;
+				max-width:768px;
+	 		}
+	 	}
+
 	}
+
 	.to-bottom{
 			@include centerer(true, false);
-			bottom: 15vh;
-			z-index: 10000;
+			bottom: 5vh;
+			z-index: 1000;
 			a{
 				display: block;
 				cursor: pointer;
@@ -59,7 +81,10 @@
 		.slider-video{
 			@include centerer(true, true);
 			//display: block;
-			top: 42%;
+		//	top: 42%;
+			@media(max-width: 767px){
+				top: 50%;
+			}
 			.owl-item{
 				img{
 					max-width: 900px;
