@@ -27,18 +27,18 @@
 	    </nav>
 	  	<section id="video_top" class="section">
 	    	 <div class="slider-video owl-carousel owl-theme">
-					<div class="item">
-						<img class="" src="assets/img/s1.png">
-					</div>
-					<div class="item">
-						<img class="" src="assets/img/s2.png">
-					</div>
-					<div class="item">
-						<img class="" src="assets/img/s3.png">
-					</div>
-					<div class="item">
-						<img class="" src="assets/img/s4.png">
-					</div>
+				<div class="item">
+					<img class="" src="assets/img/s1.png">
+				</div>
+				<div class="item">
+					<img class="" src="assets/img/s2.png">
+				</div>
+				<div class="item">
+					<img class="" src="assets/img/s3.png">
+				</div>
+				<div class="item">
+					<img class="" src="assets/img/s4.png">
+				</div>
 	    	</div><!-- slider video -->
 
 			<div class="video-container">
@@ -77,7 +77,7 @@
   	</section><!-- productos -->
   	<section id="accesorios" class="section">
 	<!-- 	tapa intro con boton ver accesorios
-		se abre un interno con 5 productos (serán mas?) ¿?
+		se abre un interno con productos
 		caja producto
 			imagen producto
 			nombre y detalles producto

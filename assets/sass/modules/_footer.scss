@@ -24,13 +24,21 @@ footer{
 	}
 	a{
 		&#to-top{
-			display:block;
+			display:inline-block;
 			cursor:pointer;
+			transition: all 0.3s ease-out;
+			position: relative;
+			top:-20px;
+			padding: 20px;
+			&:hover{
+				top:-30px;
+			}
 			img{
 				max-width: 40px;
 				height: auto;
-			}
 
+				top:0;
+			}
 
 		}
 	}
@@ -51,6 +59,7 @@ footer{
 			    -moz-border-radius:50%;
 			    -webkit-border-radius:50%;
 			    width:50px;
+			    transition: all 0.3s ease-out;
 			    .fa{
 			    	font-size: 26px;
 			    	margin-top: 12px;
@@ -75,12 +84,20 @@ footer{
 				a{
 					display:block;
 					color: $azul;
-					transition: all 0.325s ease-out;
-					.fa-circle-thin{
-						font-size: 40px;
-					}
+					transition: all 0.1s ease-out;
 					&:hover{
 						color:#FFC629;
+						.circle{
+							background-color: $azul;
+							border:1px solid $azul;
+						}
+						@media(max-width:1024px){
+							color: $azul;
+							.circle{
+								background-color:#fff;
+								border:1px solid $azul;
+							}
+						}
 					}
 				}
 			}
@@ -113,7 +130,7 @@ footer{
 			text-decoration: none;
 			//max-width: 500px;
 			@media(max-width:767px){
-						@include font-size(13px);
+						@include font-size(12px);
 					}
 		}
 	}

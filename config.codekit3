@@ -23,6 +23,13 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
+	"\/agegate.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/agegate.php",
+		"oF": 0
+		},
 	"\/assets\/css\/animate.css": {
 		"aP": 1,
 		"bl": 0,
@@ -194,6 +201,17 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/assets\/img\/bg-agegate.jpg": {
+		"ft": 16384,
+		"iS": 448136,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/bg-agegate.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/img\/favicon.png": {
 		"ft": 32768,
 		"iS": 4524,
@@ -205,11 +223,32 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/logo-agegate.png": {
+		"ft": 32768,
+		"iS": 58533,
+		"oA": 0,
+		"oAP": "\/assets\/img\/logo-agegate.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/img\/logo-corona-footer.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/assets\/img\/logo-corona-footer.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/img\/logo-corona-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/logo-corona-white.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -354,6 +393,13 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/assets\/sass\/.sass-cache\/1a31a33e10be51f9353da414a1978ded26936e8b\/_agegate.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/.sass-cache\/1a31a33e10be51f9353da414a1978ded26936e8b\/_agegate.scssc",
+		"oF": 0
 		},
 	"\/assets\/sass\/.sass-cache\/1a31a33e10be51f9353da414a1978ded26936e8b\/_base.scssc": {
 		"cB": 0,
@@ -1361,6 +1407,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/sass\/modules\/_vxo.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/sass\/partials\/_agegate.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/partials\/_agegate.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
