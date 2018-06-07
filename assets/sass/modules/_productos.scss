@@ -1,0 +1,27 @@
+section#productos{
+	&.bg-productos{
+		position: relative;
+	    background-image: url(../img/bg-productos.jpg);
+	    height: 100%;
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	}
+	.caption-productos{
+		@include centerer(true, true);
+		img{
+			margin-bottom: 40px;
+			max-width: 400px;
+		}
+		@media(max-width: 767px){
+			width: 90%;
+			img{
+				max-width:250px;
+				margin: 0 auto;
+				margin-bottom: 30px;
+			}
+		}
+
+	}
+
+}

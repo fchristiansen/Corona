@@ -72,7 +72,6 @@ $(window).resize(function() {
     // Do something else, like open/close menu
     $('#main_nav').toggleClass('show-nav');
 
-
   });
 /*--*/
 
@@ -121,6 +120,7 @@ $(window).resize(function() {
    		 $('.navbar-inner ul li a').on('click', function(){
             $('button.hamburger').click();
         });
+   		//  $('.hamburger').css( "background-color", "#11233a");
 	}
 /*--*/
 

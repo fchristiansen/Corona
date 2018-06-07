@@ -23,6 +23,31 @@ body{
 }
 /*----*/
 
+.btn-blanco{
+	background-color: transparent;
+	border-radius: 0;
+	border-color: white;
+	box-shadow: none;
+	font-family: $font;
+	font-weight: $bold;
+	color: white;
+	text-transform: uppercase;
+	font-size: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	display: block;
+	max-width:260px;
+	margin: 0 auto;
+	transition: all .3s ease-out;
+	&:hover{
+		background-color: $amarillo;
+		color: $azul;
+		border-color: transparent;
+	}
+
+}
 
 
 

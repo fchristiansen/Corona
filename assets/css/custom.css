@@ -28,7 +28,7 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 .hamburger-box { width: 40px; height: 24px; display: inline-block; position: relative; }
 
 .hamburger-inner { display: block; top: 50%; margin-top: -2px; }
-.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after { width: 40px; height: 4px; background-color: #fff; border-radius: 4px; position: absolute; -webkit-transition-property: -webkit-transform; transition-property: -webkit-transform; transition-property: transform; transition-property: transform, -webkit-transform; -webkit-transition-duration: 0.15s; transition-duration: 0.15s; -webkit-transition-timing-function: ease; transition-timing-function: ease; }
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after { width: 40px; height: 4px; background-color: #fff; border-radius: 0px; position: absolute; -webkit-transition-property: -webkit-transform; transition-property: -webkit-transform; transition-property: transform; transition-property: transform, -webkit-transform; -webkit-transition-duration: 0.15s; transition-duration: 0.15s; -webkit-transition-timing-function: ease; transition-timing-function: ease; }
 .hamburger-inner::before, .hamburger-inner::after { content: ""; display: block; }
 .hamburger-inner::before { top: -10px; }
 .hamburger-inner::after { bottom: -10px; }
@@ -121,6 +121,9 @@ body { background-color: #fff; }
 .navbar.center .navbar-inner .nav { float: none; display: inline-block; vertical-align: middle; }
 
 /*----*/
+.btn-blanco { background-color: transparent; border-radius: 0; border-color: white; -webkit-box-shadow: none; box-shadow: none; font-family: "Raleway", Helvetica, Arial, sans-serif; font-weight: 700; color: white; text-transform: uppercase; font-size: 15px; padding-top: 10px; padding-bottom: 10px; padding-left: 40px; padding-right: 40px; display: block; max-width: 260px; margin: 0 auto; -webkit-transition: all .3s ease-out; transition: all .3s ease-out; }
+.btn-blanco:hover { background-color: #ffbb00; color: #11233a; border-color: transparent; }
+
 .bg-agegate { position: relative; background-image: url(../img/bg-agegate.jpg); height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover; }
 
 body.bg-agegate footer { background-color: transparent; min-height: 0; padding: 0; position: absolute; bottom: 0; width: 100%; text-align: center; }
@@ -186,7 +189,7 @@ body.bg-agegate footer .footer-agegate-inner p a:hover { color: #ffbb00; }
 
 header { position: relative; }
 
-.hamburger { position: fixed; top: 20px; left: 40px; z-index: 1002; outline: none; }
+.hamburger { position: fixed; top: 20px; left: 40px; z-index: 1002; outline: none; padding: 12px 10px 7px 10px; }
 @media (max-width: 1280px) { .hamburger { left: 0; } }
 @media (max-width: 991px) { .hamburger { left: 20px; top: 20px; } }
 @media (max-width: 767px) { .hamburger { left: 0px; top: 0px; } }
@@ -227,6 +230,12 @@ section#video_top .to-bottom a p { font-family: 400; font-size: 14px; font-size:
 section#video_top .slider-video { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
 @media (max-width: 767px) { section#video_top .slider-video { top: 50%; } }
 section#video_top .slider-video .owl-item img { max-width: 900px; height: auto; margin: 0 auto; }
+
+section#productos.bg-productos { position: relative; background-image: url(../img/bg-productos.jpg); height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover; }
+section#productos .caption-productos { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+section#productos .caption-productos img { margin-bottom: 40px; max-width: 400px; }
+@media (max-width: 767px) { section#productos .caption-productos { width: 90%; }
+  section#productos .caption-productos img { max-width: 250px; margin: 0 auto; margin-bottom: 30px; } }
 
 section#contacto { min-height: 480px; background-color: white; position: relative; padding-top: 90px; }
 @media (max-width: 767px) { section#contacto { padding-top: 50px; min-height: 450px; } }

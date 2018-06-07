@@ -212,6 +212,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/img\/bg-productos.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/bg-productos.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/caption-productos.png": {
+		"ft": 32768,
+		"iS": 28081,
+		"oA": 0,
+		"oAP": "\/assets\/img\/caption-productos.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/img\/favicon.png": {
 		"ft": 32768,
 		"iS": 4524,
@@ -1552,6 +1574,20 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/header.php",
+		"oF": 0
+		},
+	"\/includes\/productos.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/includes\/productos.php",
+		"oF": 0
+		},
+	"\/includes\/video-top.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/includes\/video-top.php",
 		"oF": 0
 		},
 	"\/index.php": {
