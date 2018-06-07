@@ -43,7 +43,7 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 
 .checkbox label:after, .radio label:after { content: ''; display: table; clear: both; }
 
-.checkbox .cr, .radio .cr { position: relative; display: inline-block; border: 1px solid #a9a9a9; border-radius: .25em; width: 1.3em; height: 1.3em; float: left; margin-right: .5em; }
+.checkbox .cr, .radio .cr { position: relative; display: inline-block; border: 1px solid #a9a9a9; border-radius: 4px; width: 1.3em; height: 1.3em; float: left; margin-right: .5em; }
 
 .radio .cr { border-radius: 50%; }
 
@@ -155,7 +155,7 @@ body.bg-agegate footer .footer-agegate-inner p a:hover { color: #ffbb00; }
 .agegate-container form#formAgeGate .checkbox-container .checkbox label { color: #ffbb00; min-height: 0; padding-left: 0; margin-bottom: auto; max-width: none; float: left; margin-top: 20px; }
 .agegate-container form#formAgeGate .checkbox-container .checkbox label .cr { border: 3px solid #ffbb00; font-size: 2.8em; }
 .agegate-container form#formAgeGate .checkbox-container .checkbox label h2 { margin: 0; margin-left: 20px; font-size: 17px; font-size: 1.0625rem; padding: 0; }
-.agegate-container form#formAgeGate .btn-aceptar { background-color: transparent; border-radius: 0; border: 3px solid #ffbb00; color: white; font-family: 'Roboto Condensed', sans-serif; font-weight: 700; text-transform: uppercase; font-size: 20px; margin-top: 20px; -webkit-box-shadow: none; box-shadow: none; -webkit-transition: all 0.3s ease-out; transition: all 0.3s ease-out; }
+.agegate-container form#formAgeGate .btn-aceptar { background-color: transparent; border-radius: 4px; border: 3px solid #ffbb00; color: white; font-family: 'Roboto Condensed', sans-serif; font-weight: 700; text-transform: uppercase; font-size: 20px; margin-top: 20px; -webkit-box-shadow: none; box-shadow: none; -webkit-transition: all 0.3s ease-out; transition: all 0.3s ease-out; }
 .agegate-container form#formAgeGate .btn-aceptar:hover { background-color: #ffbb00; }
 @media (max-width: 767px) { .agegate-container form#formAgeGate .btn-aceptar { margin-top: 15px; } }
 
