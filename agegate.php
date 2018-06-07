@@ -42,8 +42,8 @@
 			                <h2>HE LEÍDO Y ACEPTO LOS TÉRMINOS Y CONDICIONES Y COOKIES</h2>
 			            </label>
 			        </div>
-
 				</div>
+				<button href="#" type="submit" class="btn btn-default btn-aceptar">aceptar</button>
 			</form>
 		</div> <!-- agegate-container -->
 
