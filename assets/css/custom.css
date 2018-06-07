@@ -152,9 +152,9 @@ body.bg-agegate footer .footer-agegate-inner p a:hover { color: #ffbb00; }
 .agegate-container form#formAgeGate .form-group .form-control:last-child { border-right: none; }
 .agegate-container form#formAgeGate .checkbox-container { text-align: left; display: block; }
 .agegate-container form#formAgeGate .checkbox-container .checkbox { margin-top: 0; margin-bottom: 0; }
-.agegate-container form#formAgeGate .checkbox-container .checkbox label { color: #ffbb00; min-height: 0; padding-left: 0; margin-bottom: auto; }
+.agegate-container form#formAgeGate .checkbox-container .checkbox label { color: #ffbb00; min-height: 0; padding-left: 0; margin-bottom: auto; max-width: none; float: left; margin-top: 20px; }
 .agegate-container form#formAgeGate .checkbox-container .checkbox label .cr { border: 3px solid #ffbb00; font-size: 2.8em; }
-.agegate-container form#formAgeGate .checkbox-container h2 { margin: 0; margin-left: 20px; font-size: 16px; font-size: 1rem; padding: 0; }
+.agegate-container form#formAgeGate .checkbox-container .checkbox label h2 { margin: 0; margin-left: 20px; font-size: 17px; font-size: 1.0625rem; padding: 0; }
 
 .owl-carousel .owl-video-wrapper { display: block; min-height: 100%; }
 

@@ -35,19 +35,14 @@
 					<input type="text" class="form-control" id="a" placeholder="AAAA">
 				</div>
 				<div class="checkbox-container">
-				    	<span class="row">
-				    		<span class="col-xs-2">
-				    			  <div class="checkbox">
-						            <label>
-						                <input type="checkbox" value="">
-						                <span class="cr"><i class="cr-icon fa fa-check"></i></span>
-						            </label>
-						        </div>
-				    		</span>
-				    		<span class="col-xs-10">
-				    			<h2>HE LEÍDO Y ACEPTO LOS TÉRMINOS Y CONDICIONES Y COOKIES</h2>
-				    		</span>
-				    	</span>
+	    			  <div class="checkbox clearfix">
+			            <label>
+			                <input type="checkbox" value="">
+			                <span class="cr"><i class="cr-icon fa fa-check"></i></span>
+			                <h2>HE LEÍDO Y ACEPTO LOS TÉRMINOS Y CONDICIONES Y COOKIES</h2>
+			            </label>
+			        </div>
+
 				</div>
 			</form>
 		</div> <!-- agegate-container -->
