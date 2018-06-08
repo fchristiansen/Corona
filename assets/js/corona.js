@@ -89,11 +89,12 @@ $(window).resize(function() {
 // Look for .hamburger
   var hamburger = document.querySelector(".hamburger");
   // On click
-  hamburger.addEventListener("click", function() {
+  	hamburger.addEventListener("click", function() {
     // Toggle class "is-active"
     hamburger.classList.toggle("is-active");
     // Do something else, like open/close menu
     $('#main_nav').toggleClass('show-nav');
+
 
   });
 /*--*/
@@ -164,9 +165,7 @@ $(window).on('scroll', function(event){
 				800,
 				'easeOutQuint',
 				function(){
-
 				});
-
     });
 
 	 $('.slider-productos-container .btn-volver').on('click', function(e){
@@ -176,8 +175,12 @@ $(window).on('scroll', function(event){
 				800,
 				'easeOutQuint',
 				function(){
-
 				});
+
+    });
+	  $('#main_nav a').on('click', function(e){
+ 		e.preventDefault();
+ 		$('.slider-productos-container .btn-volver').click();
 
     });
 
