@@ -6,24 +6,28 @@
   			vista rapida o mas grande + zoom
   			boton comprar
   		boton volver a tapa inicial -->
-  		<div class="caption-productos">
-  			<img class="img-responsive" src="../assets/img/caption-productos.png" alt="">
+  		<div class="caption-productos hidden">
+  			<img class="img-responsive" src="assets/img/caption-productos.png" alt="">
 			<a href="#" class="btn btn-default btn-blanco"> ver productos</a>
   		</div>
-  		 <div class="slider-productos owl-carousel owl-theme hidden">
-				<div class="item">
-					<img class="" src="assets/img/s1.png">
+  		<div class="slider-productos-container">
+  			<a href="javascript:void(0);" class="btn btn-default btn-volver"><img src="assets/img/volver.png" alt="">volver</a>
+			<div class="slider-productos owl-carousel owl-theme">
+				<div class="item" style="background: url('assets/img/ficha-bg-corona-light.png') no-repeat;">
+
 				</div>
-				<div class="item">
-					<img class="" src="assets/img/s2.png">
+				<div class="item" style="background: url('assets/img/ficha-bg-corona-710.png') no-repeat;">
+
 				</div>
-				<div class="item">
-					<img class="" src="assets/img/s3.png">
+				<div class="item" style="background: url('assets/img/ficha-bg-coronita.png') no-repeat;">
+
 				</div>
-				<div class="item">
-					<img class="" src="assets/img/s4.png">
+				<div class="item" style="background: url('assets/img/ficha-bg-corona-355.png') no-repeat;">
+
 				</div>
-	    </div><!-- slider prodctos -->
+			</div><!-- slider productos -->
+  		</div>
+
 
 
 

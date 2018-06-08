@@ -1,8 +1,6 @@
-//video
 
 
-/*----*/
-//slider sobre video
+//slider caption sobre video
 $('.slider-video').owlCarousel({
 	animateOut: 'fadeOutLeft',
     animateIn: 'fadeInRight',
@@ -25,6 +23,31 @@ $('.slider-video').owlCarousel({
     }
 });
 /*----*/
+
+//slider caption sobre video
+$('.slider-productos').owlCarousel({
+	animateOut: 'fadeOut',
+    animateIn: 'fadeIn',
+    loop:false,
+    margin:0,
+    nav:true,
+    dots: false,
+    autoplay: false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+});
+/*----*/
+
+
 
 //modal altura  máxima
 

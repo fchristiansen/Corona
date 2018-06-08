@@ -245,6 +245,72 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/ficha-bg-corona-355.png": {
+		"ft": 32768,
+		"iS": 497844,
+		"oA": 0,
+		"oAP": "\/assets\/img\/ficha-bg-corona-355.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/ficha-bg-corona-710.png": {
+		"ft": 32768,
+		"iS": 631057,
+		"oA": 0,
+		"oAP": "\/assets\/img\/ficha-bg-corona-710.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/ficha-bg-corona-light.png": {
+		"ft": 32768,
+		"iS": 472293,
+		"oA": 0,
+		"oAP": "\/assets\/img\/ficha-bg-corona-light.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/ficha-bg-coronita.png": {
+		"ft": 32768,
+		"iS": 392813,
+		"oA": 0,
+		"oAP": "\/assets\/img\/ficha-bg-coronita.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/ficha-bg.png": {
+		"ft": 32768,
+		"iS": 16402,
+		"oA": 0,
+		"oAP": "\/assets\/img\/ficha-bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/ficha-divisor.png": {
+		"ft": 32768,
+		"iS": 3442,
+		"oA": 0,
+		"oAP": "\/assets\/img\/ficha-divisor.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/img\/logo-agegate.png": {
 		"ft": 32768,
 		"iS": 58533,
@@ -297,11 +363,33 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/assets\/img\/next.png": {
+		"ft": 32768,
+		"iS": 2954,
+		"oA": 0,
+		"oAP": "\/assets\/img\/next.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/img\/owl.video.play.png": {
 		"ft": 32768,
 		"iS": 4976,
 		"oA": 0,
 		"oAP": "\/assets\/img\/owl.video.play.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/prev.png": {
+		"ft": 32768,
+		"iS": 2801,
+		"oA": 0,
+		"oAP": "\/assets\/img\/prev.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -352,6 +440,13 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/tinified.zip": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/img\/tinified.zip",
+		"oF": 0
+		},
 	"\/assets\/img\/to-bottom.png": {
 		"ft": 32768,
 		"iS": 2949,
@@ -396,6 +491,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/volver.png": {
+		"ft": 32768,
+		"iS": 1447,
+		"oA": 0,
+		"oAP": "\/assets\/img\/volver.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/js\/corona.js": {
 		"ft": 64,
 		"ma": 0,
@@ -410,10 +516,20 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/assets\/js\/owl.carousel.min-min.js",
-		"oF": 0,
-		"sC": 1,
+		"oF": 1,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/assets\/js\/pace.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/js\/pace.min-min.js",
+		"oF": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/assets\/sass\/.sass-cache\/1a31a33e10be51f9353da414a1978ded26936e8b\/_agegate.scssc": {
@@ -1544,15 +1660,22 @@
 		"oAP": "\/assets\/video\/video-intro-xs.mp4",
 		"oF": 0
 		},
+	"\/assets\/video\/video-intro-xs.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/video\/video-intro-xs.webm",
+		"oF": 0
+		},
 	"\/assets\/video\/video-intro.jpg": {
 		"ft": 16384,
-		"iS": 222389,
+		"iS": 292842,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/video\/video-intro.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/assets\/video\/video-intro.mp4": {
@@ -1560,6 +1683,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/assets\/video\/video-intro.mp4",
+		"oF": 0
+		},
+	"\/assets\/video\/video-intro.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/video\/video-intro.webm",
 		"oF": 0
 		},
 	"\/footer.php": {
@@ -1595,13 +1725,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/index.php",
-		"oF": 0
-		},
-	"\/index_v2.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/index_v2.php",
 		"oF": 0
 		}
 	},
