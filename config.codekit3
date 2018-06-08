@@ -440,13 +440,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/img\/tinified.zip": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/assets\/img\/tinified.zip",
-		"oF": 0
-		},
 	"\/assets\/img\/to-bottom.png": {
 		"ft": 32768,
 		"iS": 2949,
@@ -510,6 +503,16 @@
 		"oAP": "\/assets\/js\/corona-min.js",
 		"oF": 1,
 		"sC": 0,
+		"tS": 0
+		},
+	"\/assets\/js\/jquery.easing.1.3.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/jquery.easing.1.3-min.js",
+		"oF": 0,
+		"sC": 1,
 		"tS": 0
 		},
 	"\/assets\/js\/owl.carousel.min.js": {
@@ -825,6 +828,13 @@
 		"oA": 1,
 		"oAP": "\/assets\/sass\/.sass-cache\/70264d7eff92eca5a4917a72e64498a0d519f3a5\/_drinks.scssc",
 		"oF": 1
+		},
+	"\/assets\/sass\/.sass-cache\/70264d7eff92eca5a4917a72e64498a0d519f3a5\/_ficha_producto.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/.sass-cache\/70264d7eff92eca5a4917a72e64498a0d519f3a5\/_ficha_producto.scssc",
+		"oF": 0
 		},
 	"\/assets\/sass\/.sass-cache\/70264d7eff92eca5a4917a72e64498a0d519f3a5\/_footer.scssc": {
 		"cB": 0,
@@ -1419,6 +1429,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/sass\/modules\/_ficha_producto.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/modules\/_ficha_producto.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/sass\/modules\/_footer.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1704,6 +1727,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/header.php",
+		"oF": 0
+		},
+	"\/includes\/main-nav.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/includes\/main-nav.php",
 		"oF": 0
 		},
 	"\/includes\/productos.php": {

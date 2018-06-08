@@ -26,14 +26,24 @@ section#productos{
 	}
 	.slider-productos-container{
 		position:relative;
+		background-color: #fff;
+		left: 100%;
 		.btn-volver{
 			@extend %btn-volver;
 			position: absolute;
 			z-index: 100;
 			right: 20px;
 			top: 20px;
+			padding-left: 29px;
+
 			img{
-				margin-right: 10px;
+			//	margin-right: 10px;
+				position: absolute;
+				left: 11px;
+				top: 8px;
+			}
+			span{
+				display:inline-block;
 			}
 		}
 		.slider-productos{
@@ -115,11 +125,9 @@ section#productos{
 
 				               }
 				                @media (max-width:768px){
-				                   background: url(../img/next-xs.png) no-repeat !important;
+				                   background: url(../img/next.png) no-repeat !important;
 				                   right: 0px;
-				                   width: 22px;
-				                   height: 70px;
-				                   margin-top: -60px;
+				                   margin-top: -42px;
 				               }
 				         }
 				         .owl-prev {
@@ -129,11 +137,9 @@ section#productos{
 
 				             }
 				               @media (max-width:768px){
-				                   background: url(../img/prev-xs.png) no-repeat !important;
-				                   left: -35px;
-				                   width: 22px;
-				                   height: 70px;
-				                   margin-top: -60px;
+				                   background: url(../img/prev.png) no-repeat !important;
+				                   left: 0px;
+				                   margin-top: -42px;
 				               }
 				         }
 

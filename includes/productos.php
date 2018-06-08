@@ -6,12 +6,15 @@
   			vista rapida o mas grande + zoom
   			boton comprar
   		boton volver a tapa inicial -->
-  		<div class="caption-productos hidden">
+  		<div class="caption-productos">
   			<img class="img-responsive" src="assets/img/caption-productos.png" alt="">
-			<a href="#" class="btn btn-default btn-blanco"> ver productos</a>
+			<a class="btn btn-default btn-blanco btn-ver-productos"> ver productos</a>
   		</div>
   		<div class="slider-productos-container">
-  			<a href="javascript:void(0);" class="btn btn-default btn-volver"><img src="assets/img/volver.png" alt="">volver</a>
+  			<a class="btn btn-default btn-volver">
+  				<img src="assets/img/volver.png" alt="">
+  				<span>volver</span>
+  			</a><!-- btn-volver -->
 			<div class="slider-productos owl-carousel owl-theme">
 				<div class="item" style="background: url('assets/img/ficha-bg-corona-light.png') no-repeat;">
 
