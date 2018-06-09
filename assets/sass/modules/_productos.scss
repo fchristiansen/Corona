@@ -30,12 +30,17 @@ section#productos{
 		left: 100%;
 		.btn-volver{
 			@extend %btn-volver;
+			background-color: $amarillo;
 			position: absolute;
 			z-index: 100;
 			right: 20px;
-			top: 20px;
-			padding-left: 29px;
-
+			top: 33px;
+			padding: 10px 15px 10px 35px;
+			border:none;
+			&:hover{
+				background-color: $azul;
+				color: white;
+			}
 			img{
 			//	margin-right: 10px;
 				position: absolute;

@@ -1,4 +1,14 @@
+	// scroll y snap a la seccion
+	$.scrollify({
+		section : ".lienzo",
+		interstitialSection : ".no-full",
+		 easing: "easeOutExpo",
+		 scrollSpeed: 1000,
+		 overflowScroll:true
 
+	});
+
+	/*-----------*/
 
 //slider caption sobre video
 $('.slider-video').owlCarousel({
@@ -23,7 +33,6 @@ $('.slider-video').owlCarousel({
     }
 });
 /*----*/
-
 //slider caption sobre video
 $('.slider-productos').owlCarousel({
 	animateOut: 'fadeOut',
@@ -46,9 +55,6 @@ $('.slider-productos').owlCarousel({
     }
 });
 /*----*/
-
-
-
 //modal altura  máxima
 
 function setModalMaxHeight(element) {
@@ -99,8 +105,6 @@ $(window).resize(function() {
   });
 /*--*/
 
-
-
 // ===== Scroll to Top ====
   $('#to-top').click(function() {      // When arrow is clicked
       $('body,html').animate({
@@ -109,21 +113,17 @@ $(window).resize(function() {
   });
 /*--*/
 
-//cierra navegacion al click fura del contenedor
+//cierra navegacion al click fuera del contenedor
 	var anchoVentana = $(window).width();
-
 	if(anchoVentana > 991){
-
 		$(window).click(function() {
 			$('#main_nav').removeClass('show-nav');
 			$('button.hamburger').removeClass('is-active');
 		});
-
 		$('#main_nav, button.hamburger').click(function(event){
 		    event.stopPropagation();
 		});
 	}
-
 	if(anchoVentana <= 991){
 		//colapsa menu en mobile
    		 $('.navbar-inner ul li a').on('click', function(){
@@ -148,9 +148,7 @@ $(window).on('scroll', function(event){
      }
    })
  })
-
 /*--*/
-
   // colapsa menu al click en un enlace
         // $('.navbar-inner ul li a').on('click', function(){
         //     $('button.hamburger').click()
@@ -176,15 +174,17 @@ $(window).on('scroll', function(event){
 				'easeOutQuint',
 				function(){
 				});
-
     });
+
+	 /*----*/
+	 //cierra el slider de productos si hace click en la barra de menu
 	  $('#main_nav a').on('click', function(e){
  		e.preventDefault();
  		$('.slider-productos-container .btn-volver').click();
 
     });
 
-  // ===== smooth scroll to section====
+  // ===== smooth scroll to section ====
 
     $('a[href*="#"]:not([href="#"])').click(function() {
       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -193,13 +193,15 @@ $(window).on('scroll', function(event){
         if (target.length) {
           $('html, body').animate({
             scrollTop: target.offset().top+1
-          }, 1000);
+          }, 1000,'easeOutQuint');
           return false;
         }
       }
     });
 
 /*--*/
+
+
 
 
 

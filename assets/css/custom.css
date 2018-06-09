@@ -242,7 +242,8 @@ section#productos .caption-productos img { margin-bottom: 40px; max-width: 400px
 @media (max-width: 767px) { section#productos .caption-productos { width: 90%; }
   section#productos .caption-productos img { max-width: 250px; margin: 0 auto; margin-bottom: 30px; } }
 section#productos .slider-productos-container { position: relative; background-color: #fff; left: 100%; }
-section#productos .slider-productos-container .btn-volver { position: absolute; z-index: 100; right: 20px; top: 20px; padding-left: 29px; }
+section#productos .slider-productos-container .btn-volver { background-color: #ffbb00; position: absolute; z-index: 100; right: 20px; top: 33px; padding: 10px 15px 10px 35px; border: none; }
+section#productos .slider-productos-container .btn-volver:hover { background-color: #11233a; color: white; }
 section#productos .slider-productos-container .btn-volver img { position: absolute; left: 11px; top: 8px; }
 section#productos .slider-productos-container .btn-volver span { display: inline-block; }
 section#productos .slider-productos-container .slider-productos { position: relative; }

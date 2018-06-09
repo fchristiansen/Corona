@@ -1,7 +1,7 @@
 
   	<header id="home">
 
-	  	<section id="video_top" class="section">
+	  	<section id="video_top" class="section lienzo"  data-section-name="home" >
 	    	 <div class="slider-video owl-carousel owl-theme">
 				<div class="item">
 					<img class="" src="assets/img/s1.png">
