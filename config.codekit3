@@ -1753,66 +1753,108 @@
 	"\/assets\/video\/drinks-americana.mp4": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/assets\/video\/drinks-americana.mp4",
-		"oF": 0
+		"oF": 1
+		},
+	"\/assets\/video\/drinks-americana.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/video\/drinks-americana.webm",
+		"oF": 1
 		},
 	"\/assets\/video\/drinks-corojito.mp4": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/assets\/video\/drinks-corojito.mp4",
-		"oF": 0
+		"oF": 1
+		},
+	"\/assets\/video\/drinks-corojito.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/video\/drinks-corojito.webm",
+		"oF": 1
 		},
 	"\/assets\/video\/drinks-coroquila.mp4": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/assets\/video\/drinks-coroquila.mp4",
-		"oF": 0
+		"oF": 1
+		},
+	"\/assets\/video\/drinks-coroquila.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/video\/drinks-coroquila.webm",
+		"oF": 1
 		},
 	"\/assets\/video\/drinks-groove.mp4": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/assets\/video\/drinks-groove.mp4",
-		"oF": 0
+		"oF": 1
+		},
+	"\/assets\/video\/drinks-groove.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/video\/drinks-groove.webm",
+		"oF": 1
 		},
 	"\/assets\/video\/drinks-sunrise.mp4": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/assets\/video\/drinks-sunrise.mp4",
-		"oF": 0
+		"oF": 1
+		},
+	"\/assets\/video\/drinks-sunrise.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/video\/drinks-sunrise.webm",
+		"oF": 1
 		},
 	"\/assets\/video\/drinks-sunset.mp4": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/assets\/video\/drinks-sunset.mp4",
-		"oF": 0
+		"oF": 1
+		},
+	"\/assets\/video\/drinks-sunset.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/video\/drinks-sunset.webm",
+		"oF": 1
 		},
 	"\/assets\/video\/video-intro-xs.mp4": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/assets\/video\/video-intro-xs.mp4",
-		"oF": 0
+		"oF": 1
 		},
 	"\/assets\/video\/video-intro-xs.webm": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/assets\/video\/video-intro-xs.webm",
-		"oF": 0
+		"oF": 1
 		},
 	"\/assets\/video\/video-intro.jpg": {
 		"ft": 16384,
 		"iS": 292842,
 		"jF": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/assets\/video\/video-intro.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -1820,15 +1862,29 @@
 	"\/assets\/video\/video-intro.mp4": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/assets\/video\/video-intro.mp4",
-		"oF": 0
+		"oF": 1
 		},
 	"\/assets\/video\/video-intro.webm": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/assets\/video\/video-intro.webm",
+		"oF": 1
+		},
+	"\/assets\/video\/vxo.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/video\/vxo.mp4",
+		"oF": 1
+		},
+	"\/assets\/video\/vxo.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/video\/vxo.webm",
 		"oF": 0
 		},
 	"\/footer.php": {

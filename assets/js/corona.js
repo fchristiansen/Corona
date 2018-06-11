@@ -38,7 +38,8 @@ $('.slider-video').owlCarousel({
 //slider productos
 $('.slider-productos').owlCarousel({
 	animateOut: 'fadeOut',
-    animateIn: 'fadeIn',
+ 	 animateIn: 'fadeIn',
+    smartSpeed:500,
     loop:false,
     margin:0,
     nav:true,
@@ -58,7 +59,7 @@ $('.slider-productos').owlCarousel({
 });
 /*----*/
 
-//slider productos
+//slider drinks
 $('.slider-drinks').owlCarousel({
 	// animateOut: 'fadeOut',
  //    animateIn: 'fadeIn',
@@ -66,6 +67,7 @@ $('.slider-drinks').owlCarousel({
     margin:0,
     nav:true,
     dots: false,
+    smartSpeed:1000,
     autoplay: false,
     responsive:{
         0:{
@@ -190,7 +192,7 @@ $(window).on('scroll', function(event){
  		e.preventDefault();
 		$('.slider-productos-container').animate({
 			"left" : "0"},
-				800,
+				1000,
 				'easeOutQuint',
 				function(){
 				});
@@ -200,7 +202,7 @@ $(window).on('scroll', function(event){
 		e.preventDefault();
 		$('.slider-productos-container').animate({
 			"left" : "100%"},
-				800,
+				1000,
 				'easeOutQuint',
 				function(){
 				});
@@ -212,7 +214,7 @@ $(window).on('scroll', function(event){
  		e.preventDefault();
 		$('.slider-drinks-container').animate({
 			"left" : "0"},
-				800,
+				1000,
 				'easeOutQuint',
 				function(){
 				});
@@ -222,7 +224,7 @@ $(window).on('scroll', function(event){
 		e.preventDefault();
 		$('.slider-drinks-container').animate({
 			"left" : "100%"},
-				800,
+				1000,
 				'easeOutQuint',
 				function(){
 				});
@@ -263,7 +265,7 @@ $(window).on('scroll', function(event){
 
 /*--*/
 
-// videos
+// videos drinks
 
 $( "body" ).on( "click", ".video", function() {
 
@@ -272,14 +274,13 @@ $( "body" ).on( "click", ".video", function() {
 
 	videoSRCauto = videoSRC + "?autoplay=1&color=17376e&title=0&byline=0&portrait=0";
 	$(theModal + ' #source_mp4').attr('src', videoSRC+".mp4?autoplay=1");
-	// $(theModal + ' #source_ogg').attr('src', videoSRC+".ogg?autoplay=1");
+	$(theModal + ' #source_webm').attr('src', videoSRC+".webm?autoplay=1");
 
 	$('#video').get(0).load();
 	 $(theModal).modal();
 	 $('#video').get(0).play();
 
  });
-
 
 $('#video-modal').on('shown.bs.modal', '.modal', function () {
   $('#video')[0].play();
@@ -291,7 +292,7 @@ $('#video-modal').on('hidden.bs.modal','modal', function () {
 $('body').on('hidden.bs.modal', '.modal', function () {
 	$('video').trigger('pause');
 });
-
+/*----*/
 
 
 

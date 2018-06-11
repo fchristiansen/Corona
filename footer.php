@@ -62,7 +62,7 @@
 			  	 </button>
 			  	 	<video id="video" controls style="width: 100%; height: auto; margin:0 auto; frameborder:0;">
 						  	<source src="" id="source_mp4" type="video/mp4">
-							<!-- <source src="" id="source_ogg" type="video/ogg"> -->
+							<source src="" id="source_webm" type="video/webm">
 						  Tu navegador no soporta video HTML5
 					</video>
 			  </div>
