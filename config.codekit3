@@ -1607,19 +1607,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/sass\/modules\/_top.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/sass\/modules\/_top.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/assets\/sass\/modules\/_video_top.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1908,6 +1895,13 @@
 		"oAP": "\/includes\/accesorios.php",
 		"oF": 0
 		},
+	"\/includes\/contacto.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/includes\/contacto.php",
+		"oF": 0
+		},
 	"\/includes\/drinks.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1920,6 +1914,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/includes\/main-nav.php",
+		"oF": 0
+		},
+	"\/includes\/parleyvxo.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/includes\/parleyvxo.php",
 		"oF": 0
 		},
 	"\/includes\/productos.php": {
