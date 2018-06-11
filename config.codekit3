@@ -35,9 +35,9 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/assets\/css\/animate-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
 	"\/assets\/css\/custom.css": {
@@ -968,7 +968,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/css\/custom.css",
 		"oF": 2,
-		"oS": 2,
+		"oS": 3,
 		"uL": 0
 		},
 	"\/assets\/sass\/hamburgers\/_base.scss": {
