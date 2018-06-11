@@ -1,0 +1,37 @@
+#video-modal{
+	.modal-dialog{
+
+		@media(min-width: 768px){
+			width: auto;
+			max-width: 70%;
+		}
+		.modal-content{
+			background-color: transparent;
+			box-shadow: none;
+			border-radius: 0;
+			border: none;
+			.modal-header{
+
+			}
+			.modal-body{
+				.close{
+					position: absolute;
+					right: 23px;
+					top: 17px;
+					z-index: 10;
+					opacity: 1;
+					color: $amarillo;
+					text-shadow: none;
+					@include font-size(50px);
+					@media(max-width:767px){
+						@include font-size(30px);
+					}
+
+				}
+			}
+			.modal-footer{
+
+			}
+		}
+	}
+}

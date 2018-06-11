@@ -33,7 +33,9 @@ $('.slider-video').owlCarousel({
     }
 });
 /*----*/
-//slider caption sobre video
+
+
+//slider productos
 $('.slider-productos').owlCarousel({
 	animateOut: 'fadeOut',
     animateIn: 'fadeIn',
@@ -55,6 +57,33 @@ $('.slider-productos').owlCarousel({
     }
 });
 /*----*/
+
+//slider productos
+$('.slider-drinks').owlCarousel({
+	// animateOut: 'fadeOut',
+ //    animateIn: 'fadeIn',
+    loop:false,
+    margin:0,
+    nav:true,
+    dots: false,
+    autoplay: false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+});
+/*----*/
+
+
+
+
 //modal altura  máxima
 
 function setModalMaxHeight(element) {
@@ -177,6 +206,29 @@ $(window).on('scroll', function(event){
 				});
     });
 
+//muestra y oculta slider drinks
+
+	 $('.btn-ver-drinks').on('click', function(e){
+ 		e.preventDefault();
+		$('.slider-drinks-container').animate({
+			"left" : "0"},
+				800,
+				'easeOutQuint',
+				function(){
+				});
+    });
+
+	 $('.slider-drinks-container .btn-volver').on('click', function(e){
+		e.preventDefault();
+		$('.slider-drinks-container').animate({
+			"left" : "100%"},
+				800,
+				'easeOutQuint',
+				function(){
+				});
+    });
+
+
 	 /*----*/
 	 //cierra el slider de productos si hace click en la barra de menu
 	  $('#main_nav a').on('click', function(e){
@@ -184,6 +236,15 @@ $(window).on('scroll', function(event){
  		$('.slider-productos-container .btn-volver').click();
 
     });
+
+	   /*----*/
+	 //cierra el slider de drinks si hace click en la barra de menu
+	  $('#main_nav a').on('click', function(e){
+ 		e.preventDefault();
+ 		$('.slider-drinks-container .btn-volver').click();
+
+    });
+
 
   // ===== smooth scroll to section ====
 
@@ -202,7 +263,34 @@ $(window).on('scroll', function(event){
 
 /*--*/
 
+// videos
 
+$( "body" ).on( "click", ".video", function() {
+
+  var theModal = "#video-modal",
+	  videoSRC = $(this).attr("data-video")
+
+	videoSRCauto = videoSRC + "?autoplay=1&color=17376e&title=0&byline=0&portrait=0";
+	$(theModal + ' #source_mp4').attr('src', videoSRC+".mp4?autoplay=1");
+	// $(theModal + ' #source_ogg').attr('src', videoSRC+".ogg?autoplay=1");
+
+	$('#video').get(0).load();
+	 $(theModal).modal();
+	 $('#video').get(0).play();
+
+ });
+
+
+$('#video-modal').on('shown.bs.modal', '.modal', function () {
+  $('#video')[0].play();
+})
+$('#video-modal').on('hidden.bs.modal','modal', function () {
+  $('#video')[0].pause();
+})
+
+$('body').on('hidden.bs.modal', '.modal', function () {
+	$('video').trigger('pause');
+});
 
 
 

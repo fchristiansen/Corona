@@ -1,13 +1,7 @@
 <section id="productos" class="section lienzo bg-productos"  data-section-name="productos">
-<!--   		tapa intro + slider interno con 4 productos
-	slider interno
-		imagen de fondo grande
-		caja detalle producto
-		boton comprar
-	boton volver a tapa inicial -->
 	<div class="caption-productos">
 		<img class="img-responsive" src="assets/img/caption-productos.png" alt="">
-	<a class="btn btn-default btn-blanco btn-ver-productos"> ver productos</a>
+		<a class="btn btn-default btn-blanco btn-ver-productos"> ver productos</a>
 	</div>
 	<div class="slider-productos-container">
 		<a class="btn btn-default btn-volver">
@@ -104,5 +98,5 @@
 				</div> <!-- ficha container -->
 			</div>
 		</div><!-- slider productos -->
-	</div>
+ </div><!-- slider-productos-container -->
 </section><!-- productos -->

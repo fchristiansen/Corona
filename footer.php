@@ -50,6 +50,29 @@
 			</div> <!-- footer inner -->
 
 		</footer>
+
+	<!-- Modal Drinks -->
+	<div class="modal fade" id="video-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-body">
+			  	 <button id="cerrar" type="button" class="close" data-dismiss="modal" aria-label="Close">
+			  	 	<!-- <span aria-hidden="true">&times;</span> -->
+			  	 	<i class="fa fa-times-circle" aria-hidden="true"></i>
+			  	 </button>
+			  	 	<video id="video" controls style="width: 100%; height: auto; margin:0 auto; frameborder:0;">
+						  	<source src="" id="source_mp4" type="video/mp4">
+							<!-- <source src="" id="source_ogg" type="video/ogg"> -->
+						  Tu navegador no soporta video HTML5
+					</video>
+			  </div>
+			</div>
+		</div>
+	</div>  <!-- modal Videos -->
+
+
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script src="assets/js/owl.carousel.min.js"></script>

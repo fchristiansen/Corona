@@ -3,25 +3,10 @@
 	<?php include('includes/main-nav.php'); ?>
 	<?php include('includes/video-top.php'); ?>
 	<?php include('includes/productos.php'); ?>
-  	<section id="accesorios" class="section lienzo"  data-section-name="accesorios">
-	<!-- 	tapa intro con boton ver accesorios
-		se abre un interno con productos
-		caja producto
-			imagen producto
-			nombre y detalles producto
-			boton comprar amarillo
-		boton volver
-		se expande fuera de la caja ¿? -->
-		<img class="img-responsive" src="https://api.fnkr.net/testimg/1920x800/f5f5f5/FFF/?text=img+placeholder">
-  	</section><!-- accesorios -->
-  	<section id="drinks" class="section lienzo"  data-section-name="drinks">
-	<!-- 	tapa intro con boton a slider interno
-		logo corona drinks
-		imagen drink + receta drink
-		btn ver video tira modal con el video
-		boton volver blanco -->
-		<img class="img-responsive" src="https://api.fnkr.net/testimg/1920x800/e4e4e4/FFF/?text=drinks">
-  	</section><!-- drinks -->
+	<?php include('includes/accesorios.php'); ?>
+	<?php include('includes/drinks.php'); ?>
+
+
   	<section id="parleyvxo" class="section lienzo"  data-section-name="parleyvxo">
   		<img class="img-responsive" src="https://api.fnkr.net/testimg/1920x800/cccccc/FFF/?text=parley">
 		<section id="parley">
