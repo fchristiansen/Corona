@@ -91,6 +91,7 @@ $('.slider-tips').owlCarousel({
     autoplay: true,
     autoplayTimeout:2000,
     autoplayHoverPause:true,
+    rewind:true,
     responsive:{
         0:{
             items:1
