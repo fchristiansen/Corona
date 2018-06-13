@@ -1,4 +1,4 @@
-<section class="vxo ">
+<section class="vxo">
 		<a id="btn-volver" class="btn btn-default btn-volver">
 			<img src="assets/img/volver.png" alt="">
 			<span>volver</span>

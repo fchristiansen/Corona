@@ -22,8 +22,9 @@
 				</div> <!-- bg-vxo -->
 			</div>
 		</div><!-- row -->
-	</div> <!-- container -->
+	</div> <!-- seleccion-container -->
 	<?php include('includes/vxo.php'); ?>
+	<?php include('includes/cxp.php'); ?>
 </section><!-- parleyvxo -->
 
 

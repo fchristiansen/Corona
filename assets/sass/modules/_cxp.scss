@@ -1,0 +1,249 @@
+#parleyvxo{
+
+	section.cxp{
+		position: relative;
+		width: 100%;
+		height: 0;
+		overflow: hidden;
+		.btn-volver{
+			@extend %btn-volver;
+			background-color: transparent;
+			position: absolute;
+			z-index: 100;
+			right: 20px;
+			top: 33px;
+			padding: 10px 15px 10px 30px;
+			border:1px solid $azul;
+			color: $azul;
+			&:hover{
+				background-color: $amarillo;
+				color: $azul;
+				border:1px solid $azul;
+			}
+			img{
+			//	margin-right: 10px;
+				position: absolute;
+				left: 11px;
+				top: 8px;
+			}
+			span{
+				display:inline-block;
+			}
+				@media(max-width:767px){
+					top: 13px;
+				}
+		}
+		.intro{
+			text-align:center;
+			padding-top: 50px;
+			p{
+				color: $azul2;
+				text-transform: uppercase;
+				@include font-size(32px);
+				font-weight: $extra;
+				font-family: $font;
+				margin: 0;
+				letter-spacing: 17px;
+				margin-left: 30px;
+				@media(max-width:767px){
+					letter-spacing:14px;
+					@include font-size(26px);
+					margin-left: 20px;
+					margin-top: 30px;
+
+				}
+			}
+			h1{
+				color: $azul2;
+				text-transform: uppercase;
+				@include font-size(200px);
+				font-weight: $light;
+				font-family: $font;
+				margin: 0;
+				line-height: 164px;
+				margin-bottom: 60px;
+				@media(max-width:767px){
+					@include font-size(160px);
+				}
+
+			}
+		}
+		.estrategias{
+			img{
+				margin-bottom: 20px;
+				&.letra{
+
+				}
+			}
+			ul{
+				list-style-type: none;
+				text-align:center;
+				padding: 0;
+				li{
+					color: $gris;
+					text-transform: uppercase;
+					@include font-size(18px);
+					font-weight: $medium;
+					font-family: $font;
+					margin-bottom: 40px;
+				}
+			}
+			.letras-xs{
+				position: relative;
+				min-height: 225px;
+				img{
+					&.letra{
+						position: absolute;
+						left: -70px;
+					}
+				}
+				ul{
+					position: absolute;
+					max-width: 200px;
+					left: 100px;
+					top:20px;
+					li{
+						margin-bottom: 10px;
+						text-align:left;
+						&:first-child img{
+							margin-bottom: 0;
+						}
+						&:last-child img{
+							margin-bottom: 0;
+						}
+					}
+				}
+			}
+
+		} // estrategias
+		.title{
+			margin-top: 30px;
+			img{
+				margin-bottom: 0;
+				margin-top: 0;
+			}
+			p{
+				font-family: $font;
+				font-weight: $bold;
+				text-transform: none;
+				color: $gris;
+				@include font-size(18px);
+				text-align:center;
+				margin-bottom: 0;
+			}
+			h2{
+				font-family: $font;
+				font-weight: $extra;
+				text-transform: uppercase;
+				color: $gris;
+				@include font-size(36px);
+				text-align:center;
+				margin: 0;
+			}
+		}
+		.footer-air{
+			position: relative;
+			//padding-bottom: 70px;
+			.mar{
+				width: 100%;
+				background: url(../img/mar.png);
+				background-position: center top !important;
+				background-size: cover !important;
+				height: 200px;
+				margin-top: 100px;
+			}
+			.mar-xs{
+				margin-top: 140px;
+				@media(max-width:767px){
+					margin-top: 40px;
+				}
+			}
+
+			img{
+				&.ondas{
+					position: absolute;
+					top: 0;
+				}
+				&.left{
+					left: 0;
+					@media(max-width:1280px){
+						left: -150px;
+					}
+					@media(max-width:1024px){
+						left: -250px;
+					}
+					@media(max-width:767px){
+						left: -160px;
+						max-width:210px;
+						top: 140px;
+					}
+				}
+				&.right{
+					right: 0;
+					@media(max-width:1280px){
+						right:-150px;
+					}
+					@media(max-width:1024px){
+						right: -250px;
+					}
+					@media(max-width:767px){
+						right: -160px;
+						max-width:210px;
+						top: 140px;
+					}
+				}
+			}
+			.texto-central{
+				max-width: 680px;
+				padding-top: 40px;
+				@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+					max-width:410px;
+				}
+				h1{
+					font-family: $font;
+					font-weight: $regular;
+					text-transform: uppercase;
+					color: $gris;
+					@include font-size(34px);
+					text-align:center;
+					margin: 0;
+						@media(max-width:767px){
+							@include font-size(24px);
+							padding: 0 50px;
+						}
+					}
+				p{
+
+					&.bajada{
+						font-family: $font;
+						font-weight: $bold;
+						text-transform: uppercase;
+						color: $gris;
+						@include font-size(34px);
+						text-align:center;
+						margin: 0;
+						margin-bottom: 20px;
+							@media(max-width:767px){
+							@include font-size(20px);
+						}
+					}
+					&.texto{
+						font-family: $font;
+						font-weight: $regular;
+						text-transform: none;
+						color: $gris;
+						@include font-size(18px);
+						text-align:center;
+						margin: 0;
+						line-height:24px;
+							@media(max-width:767px){
+							@include font-size(16px);
+							padding: 0 50px;
+						}
+					}
+				}
+			}
+		}
+	} // end section cxp
+
+}

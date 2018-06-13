@@ -200,6 +200,8 @@ $(window).on('scroll', function(event){
    })
  })
 /*--*/
+
+
   // colapsa menu al click en un enlace
         // $('.navbar-inner ul li a').on('click', function(){
         //     $('button.hamburger').click()
@@ -227,7 +229,7 @@ $(window).on('scroll', function(event){
 				});
     });
 
-//muestra y oculta slider drinks
+	//muestra y oculta slider drinks
 
 	 $('.btn-ver-drinks').on('click', function(e){
  		e.preventDefault();
@@ -251,6 +253,8 @@ $(window).on('scroll', function(event){
 
 
 	 /*----*/
+
+
 	 //cierra el slider de productos si hace click en la barra de menu
 	  $('#main_nav a').on('click', function(e){
  		e.preventDefault();
@@ -266,9 +270,27 @@ $(window).on('scroll', function(event){
 
     	});
 
+	  /*----*/
 
-	 //ver secciones parley y vxo
+	 //cierra seccion vxo si hace click en la barra de menu
+	  $('#main_nav a').on('click', function(e){
+ 			e.preventDefault();
+ 			$('.vxo #btn-volver').click();
 
+
+    	});
+
+	  //cierra seccion cxp si hace click en la barra de menu
+	  $('#main_nav a').on('click', function(e){
+ 			e.preventDefault();
+ 			$('.cxp #btn-volver-cxp').click();
+
+
+    	});
+
+
+	 //ver secciones cxp y vxo
+	 //ver vxo
 	 $('#btn-ver-vxo').on('click', function(e){
  		e.preventDefault();
  		$.scrollify.disable();
@@ -279,7 +301,6 @@ $(window).on('scroll', function(event){
 				function(){
 
 				});
-
 			  	$('section.vxo').animate({
 				"height" : "100%"},
 				800,
@@ -287,18 +308,7 @@ $(window).on('scroll', function(event){
 				function(){
 				});
 
-    });
-
-	 $('#btn-volver').on('click', function(e){
- 		e.preventDefault();
-			$.scrollify.enable();
- 			$('#seleccion-container').animate({
-			"height" : "100vh"},
-				800,
-				'easeOutQuint',
-				function(){
-				});
- 			 $('section.vxo').animate({
+				$('section.cxp').animate({
 				"height" : "0px"},
 				800,
 				'easeOutQuint',
@@ -307,9 +317,82 @@ $(window).on('scroll', function(event){
 				});
 
     });
+	 /*------*/
 
+	 // ver cxp
+
+	$('#btn-ver-cxp').on('click', function(e){
+ 		e.preventDefault();
+ 		$.scrollify.disable();
+
+		$('#seleccion-container').animate({
+			"height" : "0vh"},
+				800,
+				'easeOutQuint',
+				function(){
+
+				});
+
+			  	$('section.cxp').animate({
+				"height" : "100%"},
+				800,
+				'easeOutQuint',
+				function(){
+				});
+
+				$('section.vxo').animate({
+				"height" : "0px"},
+				800,
+				'easeOutQuint',
+				function(){
+
+				});
+
+    });
+	/*------*/
+
+	 $('#btn-volver').on('click', function(e){
+ 			e.preventDefault();
+			$.scrollify.enable();
+ 			$('#seleccion-container').animate({
+				"height" : "100vh"},
+				800,
+				'easeOutQuint',
+				function(){
+				});
+
+ 			 $('section.vxo').animate({
+				"height" : "0px"},
+				800,
+				'easeOutQuint',
+				function(){
+
+				});
+   	 });
 
  /*------*/
+
+ 	 $('#btn-volver-cxp').on('click', function(e){
+ 		e.preventDefault();
+			$.scrollify.enable();
+ 			$('#seleccion-container').animate({
+				"height" : "100vh"},
+				800,
+				'easeOutQuint',
+				function(){
+				});
+ 			 $('section.cxp').animate({
+				"height" : "0px"},
+				800,
+				'easeOutQuint',
+				function(){
+
+				});
+    });
+
+ /*------*/
+
+
 
 // player video voluntarios
 const player = new Plyr('#player', {
