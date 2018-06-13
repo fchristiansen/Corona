@@ -88,10 +88,7 @@ $('.slider-tips').owlCarousel({
     nav:true,
     dots: false,
     smartSpeed:500,
-    autoplay: true,
-    autoplayTimeout:2000,
-    autoplayHoverPause:true,
-    rewind:true,
+    autoplay: false,
     responsive:{
         0:{
             items:1
@@ -231,11 +228,13 @@ $(window).on('scroll', function(event){
 				function(){
 				});
     });
-
+/*------*/
 	//muestra y oculta slider drinks
 
 	 $('.btn-ver-drinks').on('click', function(e){
  		e.preventDefault();
+ 		$('.vxo #btn-volver').click();
+		$('.cxp #btn-volver-cxp').click();
 		$('.slider-drinks-container').animate({
 			"left" : "0"},
 				1000,
@@ -292,11 +291,15 @@ $(window).on('scroll', function(event){
     	});
 
 
+
+
 	 //ver secciones cxp y vxo
 	 //ver vxo
 	 $('#btn-ver-vxo').on('click', function(e){
  		e.preventDefault();
  		$.scrollify.disable();
+ 		$("#contacto, footer").hide();
+ 		$('.slider-drinks-container .btn-volver').click();
 		$('#seleccion-container').animate({
 			"height" : "0vh"},
 				800,
@@ -321,13 +324,12 @@ $(window).on('scroll', function(event){
 
     });
 	 /*------*/
-
 	 // ver cxp
-
 	$('#btn-ver-cxp').on('click', function(e){
  		e.preventDefault();
  		$.scrollify.disable();
-
+		$("#contacto, footer").hide();
+		$('.slider-drinks-container .btn-volver').click();
 		$('#seleccion-container').animate({
 			"height" : "0vh"},
 				800,
@@ -357,6 +359,7 @@ $(window).on('scroll', function(event){
 	 $('#btn-volver').on('click', function(e){
  			e.preventDefault();
 			$.scrollify.enable();
+			$("#contacto, footer").show();
  			$('#seleccion-container').animate({
 				"height" : "100vh"},
 				800,
@@ -378,6 +381,7 @@ $(window).on('scroll', function(event){
  	 $('#btn-volver-cxp').on('click', function(e){
  		e.preventDefault();
 			$.scrollify.enable();
+			$("#contacto, footer").show();
  			$('#seleccion-container').animate({
 				"height" : "100vh"},
 				800,
