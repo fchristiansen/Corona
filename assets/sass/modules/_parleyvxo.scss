@@ -1,0 +1,48 @@
+
+#parleyvxo{
+	.container-fluid.no-padding{
+		z-index: 0;
+	}
+	.box-logo-boton{
+		@include centerer(true, true);
+		width: 100%;
+		top: 53%;
+		img{
+			margin-bottom: 30px;
+		    @media(max-width:767px){
+				max-width:150px;
+				height: auto;
+				margin-bottom: 0;
+		    }
+		}
+	}
+	.bg-cxp, .bg-vxo{
+		position: relative;
+		height: 100vh;
+		background-position: center !important;
+		background-repeat: no-repeat !important;
+		background-size: cover !important;
+		 @media(max-width:768px){
+			height: 50vh;
+		}
+
+	}
+	.bg-cxp{
+		   background: url(../img/bg-cxp.png) no-repeat;
+	       @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+	       		background-position: -230px center !important;
+	    	}
+		    @media(max-width:768px){
+				background: url(../img/bg-cxp-xs.png) no-repeat;
+		    }
+
+	}
+	.bg-vxo{
+		    background: url(../img/bg-vxo.png) no-repeat;
+		    @media(max-width:768px){
+				background: url(../img/bg-vxo-xs.png) no-repeat;
+		    }
+	}
+
+}
+

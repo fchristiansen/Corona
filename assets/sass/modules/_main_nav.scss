@@ -33,13 +33,11 @@
 	@media(max-width:991px){
 		//min-height:100vh;
 	}
-
 	#navbar{
 		margin-top:25px;
 		border:none;
 		box-shadow:none;
 		ul{
-
 			li{
 				&.logo{
 					display:none;
@@ -49,9 +47,7 @@
 					img{
 						width: 100px; height: auto;
 					}
-
 				}
-
 				margin-right: 20px;
 				@media(min-width:991px) and (max-width:1200px){
 					margin-right:10px;
@@ -84,20 +80,20 @@
 					}
 				}
 				@media(max-width: 991px){
-						background: url('../img/underline.png') repeat-x;
-						background-position: top;
-						margin-right: auto;
-						margin-left: auto;
-						margin-bottom: 20px;
-						padding: 20px 0 0 0;
-						&:first-child{
-							background:none;
-							padding:0;
-						}
-						@media(max-width:991px){
-							margin-bottom: 15px;
-							padding: 15px 0 0 0;
-						}
+					background: url('../img/underline.png') repeat-x;
+					background-position: top;
+					margin-right: auto;
+					margin-left: auto;
+					margin-bottom: 20px;
+					padding: 20px 0 0 0;
+					&:first-child{
+						background:none;
+						padding:0;
+					}
+					@media(max-width:991px){
+						margin-bottom: 15px;
+						padding: 15px 0 0 0;
+					}
 				}
 			}
 		}

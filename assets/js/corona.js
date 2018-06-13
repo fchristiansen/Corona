@@ -61,8 +61,6 @@ $('.slider-productos').owlCarousel({
 
 //slider drinks
 $('.slider-drinks').owlCarousel({
-	// animateOut: 'fadeOut',
- //    animateIn: 'fadeIn',
     loop:false,
     margin:0,
     nav:true,
@@ -83,6 +81,27 @@ $('.slider-drinks').owlCarousel({
 });
 /*----*/
 
+//slider tips
+$('.slider-tips').owlCarousel({
+    loop:false,
+    margin:0,
+    nav:true,
+    dots: false,
+    smartSpeed:500,
+    autoplay: false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+});
+/*----*/
 
 
 
@@ -138,10 +157,10 @@ $(window).resize(function() {
 /*--*/
 
 // ===== Scroll to Top ====
-  $('#to-top').click(function() {      // When arrow is clicked
+  $('#to-top').click(function() {
       $('body,html').animate({
-          scrollTop : 0               // Scroll to top of body
-      }, 1500);
+          scrollTop : 0
+      }, 1500, 'easeOutQuint');
   });
 /*--*/
 
@@ -242,11 +261,62 @@ $(window).on('scroll', function(event){
 	   /*----*/
 	 //cierra el slider de drinks si hace click en la barra de menu
 	  $('#main_nav a').on('click', function(e){
+ 			e.preventDefault();
+ 			$('.slider-drinks-container .btn-volver').click();
+
+    	});
+
+
+	 //ver secciones parley y vxo
+
+	 $('#btn-ver-vxo').on('click', function(e){
  		e.preventDefault();
- 		$('.slider-drinks-container .btn-volver').click();
+ 		$.scrollify.disable();
+		$('#seleccion-container').animate({
+			"height" : "0vh"},
+				800,
+				'easeOutQuint',
+				function(){
+
+				});
+
+			  	$('section.vxo').animate({
+				"height" : "100%"},
+				800,
+				'easeOutQuint',
+				function(){
+				});
 
     });
 
+	 $('#btn-volver').on('click', function(e){
+ 		e.preventDefault();
+			$.scrollify.enable();
+ 			$('#seleccion-container').animate({
+			"height" : "100vh"},
+				800,
+				'easeOutQuint',
+				function(){
+				});
+ 			 $('section.vxo').animate({
+				"height" : "0px"},
+				800,
+				'easeOutQuint',
+				function(){
+
+				});
+
+    });
+
+
+ /*------*/
+
+// player video voluntarios
+const player = new Plyr('#player', {
+
+});
+
+/*------*/
 
   // ===== smooth scroll to section ====
 
