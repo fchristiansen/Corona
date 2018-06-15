@@ -70,13 +70,16 @@
 		</div>
 	</div>  <!-- modal Videos -->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 	<script src="assets/js/owl.carousel.min.js"></script>
 	<script src="assets/js/jquery.easing.1.3.js"></script>
 	<script src="assets/js/jquery.scrollify.js"></script>
 	<script src="assets/js/plyr.min.js"></script>
+	<script src="assets/js/jquery.elevateZoom-3.0.8.min.js"></script>
 	<script src="assets/js/corona.js"></script>
+
   </body>
 </html>
 

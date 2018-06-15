@@ -211,6 +211,7 @@ $(window).on('scroll', function(event){
 
 	 $('.btn-ver-productos').on('click', function(e){
  		e.preventDefault();
+ 		$('.grilla-accesorios-container .btn-volver-accesorios').click();
 		$('.slider-productos-container').animate({
 			"left" : "0"},
 				1000,
@@ -235,6 +236,7 @@ $(window).on('scroll', function(event){
  		e.preventDefault();
  		$('.vxo #btn-volver').click();
 		$('.cxp #btn-volver-cxp').click();
+
 		$('.slider-drinks-container').animate({
 			"left" : "0"},
 				1000,
@@ -286,12 +288,12 @@ $(window).on('scroll', function(event){
 	  $('#main_nav a').on('click', function(e){
  			e.preventDefault();
  			$('.cxp #btn-volver-cxp').click();
-
-
     	});
-
-
-
+	    //cierra seccion accesorios si hace click en la barra de menu
+	  $('#main_nav a').on('click', function(e){
+ 			e.preventDefault();
+ 			$('.btn-volver-accesorios').click();
+    	});
 
 	 //ver secciones cxp y vxo
 	 //ver vxo
@@ -399,6 +401,53 @@ $(window).on('scroll', function(event){
 
  /*------*/
 
+	//ver seccion accesorios
+
+	 $('.btn-ver-accesorios').on('click', function(e){
+ 		e.preventDefault();
+ 		$.scrollify.disable();
+
+ 		$('.slider-productos-container .btn-volver').click();
+ 		$("#drinks, #parleyvxo, #contacto, footer").hide();
+		$('#portada-accesorios').animate({
+			"height" : "0vh"},
+				800,
+				'easeOutQuint',
+				function(){
+
+				});
+			  	$('section.grilla-accesorios-container').animate({
+					"height" : "100%"},
+					800,
+					'easeOutQuint',
+					function(){
+					});
+
+
+    });
+	 /*------*/
+	 // volver a accesorios
+	  $('.btn-volver-accesorios').on('click', function(e){
+ 		e.preventDefault();
+		$.scrollify.enable();
+			$("#drinks, #parleyvxo, #contacto, footer").show();
+ 			$('#portada-accesorios').animate({
+				"height" : "100vh"},
+				800,
+				'easeOutQuint',
+				function(){
+				});
+ 			 $('section.grilla-accesorios-container').animate({
+				"height" : "0px"},
+				800,
+				'easeOutQuint',
+				function(){
+
+				});
+    });
+
+ /*------*/
+
 
 
 // player video voluntarios
@@ -454,12 +503,37 @@ $('body').on('hidden.bs.modal', '.modal', function () {
 });
 /*----*/
 
+// overlay modal accesorio
+$('#modalAccesorio').on('show.bs.modal', function() {
+	// zoom productos
+	$(" #img-producto-zoom").elevateZoom({
+		gallery:'botonera-producto',
+		zoomType: "inner",
+		responsive: true,
+		cursor: 'crosshair',
+		galleryActiveClass: 'active',
+		imageCrossfade: true,
+		zoomWindowFadeIn: 500,
+		zoomWindowFadeOut: 500
+	});
+
+  setTimeout(function() {
+    	$('.modal-backdrop').css('background', 'white');
+  	 	$('.modal-backdrop').css('opacity', '1');
+  }, 10);
+});
+
+$('#modalAccesorio').on('hidden.bs.modal', function() {
+		$('.zoomContainer').remove();
+		$('.modal-backdrop').css('background', '');
+});
+
+/*--*/
 
 
 
 
-
-
+/*------*/
 
 
 

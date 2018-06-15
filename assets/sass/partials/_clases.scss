@@ -154,9 +154,10 @@ body {
 .modal-open {
   overflow-y: auto;
 }
-////
+/*------*/
 
 // centra el modal
+@media(min-width:768px){
 .modal {
   text-align: center;
   padding: 0!important;
@@ -175,8 +176,31 @@ body {
   text-align: left;
   vertical-align: middle;
 }
+}
+
+
+/*--------*/
+
+//cambia color de fondo del modal
+
+// 	.modal-backdrop {
+//    // background-color: red;
+//    // opacity: 0.9 !important;
+//    // transition: all 1s ease-out;
+//    // opacity:0;
+// }
 
 /*--*/
+// tiempo de fade in del modal
+// .fade {
+//     opacity: 0;
+//     -webkit-transition: opacity 1s linear;
+//     transition: opacity 1s linear;
+// }
+
+
+
+
 
 .no-gutter > [class*='col-'] {
     padding-right:0;

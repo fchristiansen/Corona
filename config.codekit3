@@ -222,15 +222,59 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/img\/bg-accesorios.jpg": {
-		"ft": 16384,
-		"iS": 254644,
-		"jF": 0,
+	"\/assets\/img\/barra.png": {
+		"ft": 32768,
+		"iS": 2362,
 		"oA": 0,
-		"oAP": "\/assets\/img\/bg-accesorios.jpg",
+		"oAP": "\/assets\/img\/barra.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/bg-accesorios-bottom-xs.png": {
+		"ft": 32768,
+		"iS": 189509,
+		"oA": 0,
+		"oAP": "\/assets\/img\/bg-accesorios-bottom-xs.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/bg-accesorios-bottom.png": {
+		"ft": 32768,
+		"iS": 408604,
+		"oA": 0,
+		"oAP": "\/assets\/img\/bg-accesorios-bottom.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/bg-accesorios-top-xs.png": {
+		"ft": 32768,
+		"iS": 82809,
+		"oA": 0,
+		"oAP": "\/assets\/img\/bg-accesorios-top-xs.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/bg-accesorios-top.png": {
+		"ft": 32768,
+		"iS": 220186,
+		"oA": 0,
+		"oAP": "\/assets\/img\/bg-accesorios-top.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/img\/bg-agegate.jpg": {
@@ -241,7 +285,7 @@
 		"oAP": "\/assets\/img\/bg-agegate.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/bg-cxp-xs.png": {
@@ -277,6 +321,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/img\/bg-grilla-xs.png": {
+		"ft": 32768,
+		"iS": 240391,
+		"oA": 0,
+		"oAP": "\/assets\/img\/bg-grilla-xs.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/bg-grilla.png": {
+		"ft": 32768,
+		"iS": 269129,
+		"oA": 0,
+		"oAP": "\/assets\/img\/bg-grilla.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/img\/bg-productos.jpg": {
 		"ft": 16384,
 		"iS": 0,
@@ -285,7 +351,7 @@
 		"oAP": "\/assets\/img\/bg-productos.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/bg-receta-drink.jpg": {
@@ -327,8 +393,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/bg-vxo-xs.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -910,6 +976,105 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/zoom\/thumbs\/triumph_thumb1.jpg": {
+		"ft": 16384,
+		"iS": 15989,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/zoom\/thumbs\/triumph_thumb1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/zoom\/thumbs\/triumph_thumb2.jpg": {
+		"ft": 16384,
+		"iS": 16079,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/zoom\/thumbs\/triumph_thumb2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/zoom\/thumbs\/triumph_thumb3.jpg": {
+		"ft": 16384,
+		"iS": 16084,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/zoom\/thumbs\/triumph_thumb3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/zoom\/triumph_big1.jpg": {
+		"ft": 16384,
+		"iS": 150018,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/zoom\/triumph_big1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/zoom\/triumph_big2.jpg": {
+		"ft": 16384,
+		"iS": 153065,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/zoom\/triumph_big2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/zoom\/triumph_big3.jpg": {
+		"ft": 16384,
+		"iS": 152811,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/zoom\/triumph_big3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/zoom\/triumph_small1.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/zoom\/triumph_small1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/zoom\/triumph_small2.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/zoom\/triumph_small2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/zoom\/triumph_small3.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/zoom\/triumph_small3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/js\/corona.js": {
 		"ft": 64,
 		"ma": 0,
@@ -928,6 +1093,16 @@
 		"oAP": "\/assets\/js\/jquery.easing.1.3-min.js",
 		"oF": 1,
 		"sC": 0,
+		"tS": 0
+		},
+	"\/assets\/js\/jquery.elevateZoom-3.0.8.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/jquery.elevateZoom-3.0.8.min-min.js",
+		"oF": 0,
+		"sC": 1,
 		"tS": 0
 		},
 	"\/assets\/js\/jquery.scrollify.js": {
@@ -2278,6 +2453,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/header.php",
+		"oF": 0
+		},
+	"\/includes\/accesorios-grilla.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/includes\/accesorios-grilla.php",
 		"oF": 0
 		},
 	"\/includes\/accesorios.php": {

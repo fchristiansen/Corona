@@ -6,14 +6,16 @@
 			max-width: 70%;
 		}
 		.modal-content{
-			background-color: transparent;
+			//background-color: transparent;
 			box-shadow: none;
 			border-radius: 0;
 			border: none;
+			position:relative;
 			.modal-header{
 
 			}
 			.modal-body{
+				position:relative;
 				.close{
 					position: absolute;
 					right: 23px;
@@ -28,10 +30,170 @@
 					}
 
 				}
+
 			}
 			.modal-footer{
 
 			}
 		}
 	}
-}
+} //end video modal
+
+
+//z index del zoom
+.zoomContainer{ z-index: 9999 !important;}
+.zoomWindow{ z-index: 9999 !important;}
+
+#modalAccesorio{
+	.center-height{
+		min-height:320px;
+		position:relative;
+		@media(max-width:767px){
+			min-height:0;
+			height: auto;
+		}
+	}
+	//zoom
+	.contenedor-producto{
+		position: relative;
+		.img-zoom-wrapper{
+			position:relative;
+			z-index: 9999;
+			float: right;
+			@media(max-width:1024px){
+				float: none;
+				display:table;
+				margin: 0 auto;
+				margin-bottom: 20px;
+			}
+		}
+	}
+	#botonera-producto{
+  		@media(max-width:1024px){
+			display: flex;
+	  		align-items: center;
+	  		justify-content: center;
+  		}
+	}
+ 	#botonera-producto img {
+ 		border:2px solid transparent;
+ 		@media(max-width:1024px){
+			max-width: 100px;
+			height: auto;
+			float: left;
+ 		}
+ 		@media(max-width:767px){
+			max-width: 90px;
+			//height: auto;
+			//float: left;
+ 		}
+ 	}
+ 	.active img{
+ 		border:2px solid $amarillo !important;
+ 	}
+
+	//------//
+
+	.modal-dialog{
+
+		// @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape){
+		// 	min-width: 80%;
+		// }
+		min-width: 50%;
+		@media(max-width: 1440px){
+			min-width: 70%;
+		}
+		@media(max-width: 768px){
+			min-width: 50%;
+		}
+		.modal-content{
+			background-color: white;
+			box-shadow: none;
+			border-radius: 0;
+			border: none;
+			position: relative;
+			.close{
+				position: absolute;
+				right: 0px;
+				top:0px;
+				z-index: 10;
+				opacity: 1;
+				color: $amarillo;
+				text-shadow: none;
+				outline: none;
+				@include font-size(100px);
+				z-index: 9999999999;
+
+
+		}
+			.modal-header{
+
+			}
+			.modal-body{
+				position:relative;
+				@media(max-width:767px){
+					padding-top: 50px;
+				}
+
+				.contenedor-producto{
+					//min-height: 400px;
+					position: relative;
+				}
+				.contenedor-detalle{
+					@include centerer(true, true);
+					width: 100%;
+					@media(max-width:767px){
+						position: relative;
+						top: auto;
+						left: auto;
+						transform:none;
+
+					}
+					h2{
+						font-family: $font;
+						font-weight: $bold;
+						color: $azul;
+						text-transform: uppercase;
+						@include font-size(23px);
+						margin: 0;
+						text-align: center;
+						margin-bottom: 15px;
+						padding-top: 20px;
+					}
+					p{
+						font-family: $font;
+						font-weight: $semibold;
+						color: $azul;
+						text-transform: uppercase;
+						@include font-size(14px);
+						margin: 0;
+						text-align: center;
+						margin-bottom: 20px;
+						strong{
+							font-weight: $extra;
+						}
+					}
+					.btn-comprar{
+						@extend %btn-volver;
+						background-color: $amarillo;
+
+						border:none;
+
+						text-align: center;
+						display:table;
+						margin: 0 auto;
+
+						&:hover{
+							background-color: $azul;
+							color: white;
+						}
+
+					}
+				}
+			}
+			.modal-footer{
+
+			}
+		}
+	}
+} // end modal accesorios

@@ -47,8 +47,6 @@
 						<li>Educar sobre los peligros</li>
 						<li><img class="img-responsive" src="assets/img/onda.png" alt=""></li>
 					</ul>
-
-
 				</div>
 				<div class="col-xs-12 visible-xs letras-xs">
 					<img class="img-responsive letra center-block" src="assets/img/i.png" alt="">
@@ -56,8 +54,6 @@
 						<li>Interceptar los residuos de plástico</li>
 						<li>Que lleguen menos al océano</li>
 						<li>Limpiar el plástico que se encuentre ahí</li>
-
-
 					</ul>
 				</div>
 				<div class="col-xs-12 visible-xs letras-xs">
@@ -68,8 +64,6 @@
 						<li>Productos que se reutilicen de forma innovadora</li>
 					</ul>
 				</div>
-
-
 			</section><!-- estrategias -->
 
 			<div class="title">
@@ -79,8 +73,6 @@
 					<p>en un mundo mucho mejor.</p>
 				<img class="img-responsive center-block" src="assets/img/onda2.png" alt="">
 			</div>
-
-
 		</div><!-- row -->
 	</div> <!-- container -->
 	<div class="container-fluid no-padding position-relative">
@@ -99,11 +91,9 @@
 						para siempre.
 					</p>
 				</div>
-
 			</div>
 			<div class="mar visible-lg"></div>
 			<img class="img-responsive mar-xs hidden-lg" src="assets/img/mar.png" alt="">
-
 		</section><!-- footer air -->
 	</div>
 </section> <!-- vpo -->

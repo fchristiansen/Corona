@@ -1,11 +1,260 @@
 section#accesorios{
-	&.bg-accesorios{
+	overflow:hidden;
+	position: relative;
+	.bg-accesorios-top{
 		position: relative;
-	    background-image: url(../img/bg-accesorios.jpg);
-	    height: 100%;
+	    background-image: url(../img/bg-accesorios-top.png);
+	    height: 67vh;
 	    background-position: center;
 	    background-repeat: no-repeat;
 	    background-size: cover;
+	    @media(max-width:991px){
+			background-image: url(../img/bg-accesorios-top-xs.png);
+	    }
+	    .center-out{
+	    	@include centerer(true, true);
+	    	.h{
+				min-height: 300px;
+				position: relative;
+				@media(max-width:991px){
+					min-height: 0;
+	    		}
+	    	}
+	    	.center-in{
+	    		@include centerer(false, true);
+	    		@media(max-width:991px){
+					position:relative;
+					top: auto;
+					transform: none;
+	    		}
+	    	}
+
+	    }
+	}
+	.bg-accesorios-bottom{
+		position: relative;
+	    background-image: url(../img/bg-accesorios-bottom.png);
+	    height: 33vh;
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    @media(max-width:991px){
+			background-image: url(../img/bg-accesorios-bottom-xs.png);
+	    }
+	}
+	h1{
+		font-family: $font;
+		font-weight: $extra;
+		text-transform: uppercase;
+		color: $azul;
+		@include font-size(86px);
+		text-align:center;
+		margin-top:0;
+		margin-bottom: 15px;
+		@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+			@include font-size(70px);
+		}
+		@media(max-width:991px){
+			@include font-size(40px);
+		}
+
+	}
+	.call{
+
+		.textos{
+			margin: 20px 0;
+			text-align: left;
+		}
+		.t1, .t2, .t3, .t4{
+			font-family: $font;
+			text-transform: uppercase;
+			color: $azul;
+			line-height: 62px;
+			display: block;
+			@media(max-width:991px){
+				line-height: 62px-30px;
+			}
+		}
+		.t1{
+			@include font-size(56px);
+			font-weight: $regular;
+			@media(max-width:991px){
+				@include font-size(56px-20px);
+			}
+		}
+		.t2{
+			@include font-size(46px);
+			font-weight: $regular;
+			@media(max-width:991px){
+				@include font-size(31px);
+			}
+		}
+		.t3{
+			@include font-size(50px);
+			font-weight: $regular;
+			@media(max-width:991px){
+				@include font-size(33px);
+			}
+		}
+		.t4{
+			@include font-size(36px);
+			font-weight: $extra;
+			@media(max-width:991px){
+				@include font-size(24px);
+			}
+		}
+	}
+	.btn-ver-accesorios{
+		@extend %btn-volver;
+		background-color: transparent;
+		z-index: 100;
+		border:1px solid $azul;
+		color: $azul;
+		width: 100%;
+		@include font-size(20px);
+		&:hover{
+			background-color: $amarillo;
+			//color: white;
+			border:1px solid $azul;
+		}
+		@media(max-width:991px){
+			margin-top: 10px;
+		}
+	}
+
+	.grilla-accesorios-container{
+		position: relative;
+		width: 100%;
+		height: 0px;
+		overflow: hidden;
+	//	padding-bottom: 30px;
+		background: url(../img/bg-grilla.png) no-repeat;
+		background-position: center !important;
+		background-repeat: no-repeat !important;
+		background-size: cover !important;
+		@media(max-width:991px){
+			background: url(../img/bg-grilla-xs.png) no-repeat;
+		}
+		.title-accesorios{
+			font-family: $font;
+			font-weight: $bold;
+			text-transform: uppercase;
+			@include font-size(50px);
+			margin: 0;
+			color: white;
+			text-align: left;
+			margin-top: 70px;
+			//margin-bottom: 15px;
+			@media(max-width:991px){
+				text-align: center;
+				@include font-size(44px);
+			}
+		}
+		.grilla-accesorios{
+			//padding: 90px 0 30px 0;
+			margin-top: 90px;
+			@media(max-width:991px){
+			//	padding-top: 20px;
+				margin-top: 20px;
+			}
+		}
+		.btn-volver-accesorios{
+			@extend %btn-volver;
+			background-color: transparent;
+			position: absolute;
+			z-index: 100;
+			right: 20px;
+			top: 33px;
+			padding: 10px 15px 10px 30px;
+			border:1px solid white;
+			&:hover{
+				background-color: $amarillo;
+				color: $azul;
+			}
+			img{
+			//	margin-right: 10px;
+				position: absolute;
+				left: 11px;
+				top: 8px;
+			}
+			span{
+				display:inline-block;
+			}
+			@media(max-width:767px){
+				top: 13px;
+			}
+		}
+		.accesorio-container{
+
+			.img-accesorio{
+				padding: 10px;
+				background-color: white;
+					a{
+						display:block;
+						cursor:pointer;
+						overflow: hidden;
+						img{
+							transition: all .3s ease-out;
+						}
+						&:hover{
+							img{
+								transform: scale(1.05);
+							}
+						}
+					}
+			}
+			.detalle-accesorio{
+				margin-bottom: 30px;
+				background-color: white;
+				padding: 10px;
+				min-height: 240px;
+				max-height: 300px;
+				position: relative;
+
+				h2{
+					border-top: 4px solid $azul;
+					font-family: $font;
+					font-weight: $bold;
+					color: $azul;
+					text-transform: uppercase;
+					@include font-size(23px);
+					margin: 0;
+					text-align: right;
+					margin-bottom: 15px;
+					padding-top: 20px;
+				}
+				p{
+					font-family: $font;
+					font-weight: $semibold;
+					color: $azul;
+					text-transform: uppercase;
+					@include font-size(14px);
+					margin: 0;
+					text-align: right;
+					margin-bottom: 20px;
+					strong{
+						font-weight: $extra;
+					}
+				}
+				.btn-comprar{
+					@extend %btn-volver;
+					background-color: $amarillo;
+					//z-index: 100;
+					//padding: 10px 15px 10px 30px;
+					border:none;
+					//float: right;
+					text-align: center;
+					position: absolute;
+					right: 10px;
+					bottom: 10px;
+					&:hover{
+						background-color: $azul;
+						color: white;
+					}
+
+				}
+			}
+		}
 	}
 
 }
