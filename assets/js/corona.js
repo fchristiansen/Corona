@@ -317,7 +317,6 @@ $(window).on('scroll', function(event){
 	 $('#btn-ver-vxo').on('click', function(e){
  		e.preventDefault();
 
- 		$("#contacto, footer").hide();
  		//colapsa
  		$('.slider-productos-container .btn-volver').click();
  		$('.grilla-accesorios-container .btn-volver-accesorios').click();
@@ -335,7 +334,8 @@ $(window).on('scroll', function(event){
 				800,
 				'easeOutQuint',
 				function(){
-						$.scrollify.disable();
+					$.scrollify.disable();
+					$("#contacto, footer").hide();
 				});
 
 				$('section.cxp').animate({
@@ -372,7 +372,8 @@ $(window).on('scroll', function(event){
 				800,
 				'easeOutQuint',
 				function(){
-						$.scrollify.disable();
+					$.scrollify.disable();
+					$("#contacto, footer").hide();
 				});
 
 				$('section.vxo').animate({
@@ -459,9 +460,8 @@ $(window).on('scroll', function(event){
 					'easeOutQuint',
 					function(){
 						$.scrollify.disable();
+						$("#contacto, footer").hide();
 					});
-
-
     });
 	 /*------*/
 	 // volver a accesorios
