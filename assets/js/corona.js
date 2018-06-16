@@ -1,10 +1,20 @@
+	// player video voluntarios
+const player = new Plyr('#player', {
+
+});
+
+player.volume = 0.5;
+player.on('ended', function() {
+	player.currentTime = 0;
+});
 	// scroll y snap a la seccion
 	$.scrollify({
 		section : ".lienzo",
 		interstitialSection : ".no-full",
 		 easing: "easeOutExpo",
 		 scrollSpeed: 1000,
-		 overflowScroll:true
+		 overflowScroll:false
+		  //scrollbars: false
 
 	});
 
@@ -211,7 +221,13 @@ $(window).on('scroll', function(event){
 
 	 $('.btn-ver-productos').on('click', function(e){
  		e.preventDefault();
+ 		//colapsa
  		$('.grilla-accesorios-container .btn-volver-accesorios').click();
+ 		$('.slider-drinks-container .btn-volver').click();
+ 		$('.vxo #btn-volver').click();
+		$('.cxp #btn-volver-cxp').click();
+		//
+		player.stop();
 		$('.slider-productos-container').animate({
 			"left" : "0"},
 				1000,
@@ -230,13 +246,18 @@ $(window).on('scroll', function(event){
 				});
     });
 /*------*/
+
 	//muestra y oculta slider drinks
 
 	 $('.btn-ver-drinks').on('click', function(e){
  		e.preventDefault();
+ 		//colapsa
+ 		$('.slider-productos-container .btn-volver').click();
+ 		$('.grilla-accesorios-container .btn-volver-accesorios').click();
  		$('.vxo #btn-volver').click();
 		$('.cxp #btn-volver-cxp').click();
-
+		player.stop();
+		//
 		$('.slider-drinks-container').animate({
 			"left" : "0"},
 				1000,
@@ -257,13 +278,10 @@ $(window).on('scroll', function(event){
 
 
 	 /*----*/
-
-
 	 //cierra el slider de productos si hace click en la barra de menu
 	  $('#main_nav a').on('click', function(e){
  		e.preventDefault();
  		$('.slider-productos-container .btn-volver').click();
-
     });
 
 	   /*----*/
@@ -271,7 +289,6 @@ $(window).on('scroll', function(event){
 	  $('#main_nav a').on('click', function(e){
  			e.preventDefault();
  			$('.slider-drinks-container .btn-volver').click();
-
     	});
 
 	  /*----*/
@@ -280,7 +297,7 @@ $(window).on('scroll', function(event){
 	  $('#main_nav a').on('click', function(e){
  			e.preventDefault();
  			$('.vxo #btn-volver').click();
-
+ 			player.stop();
 
     	});
 
@@ -299,9 +316,13 @@ $(window).on('scroll', function(event){
 	 //ver vxo
 	 $('#btn-ver-vxo').on('click', function(e){
  		e.preventDefault();
- 		$.scrollify.disable();
+
  		$("#contacto, footer").hide();
+ 		//colapsa
+ 		$('.slider-productos-container .btn-volver').click();
+ 		$('.grilla-accesorios-container .btn-volver-accesorios').click();
  		$('.slider-drinks-container .btn-volver').click();
+
 		$('#seleccion-container').animate({
 			"height" : "0vh"},
 				800,
@@ -314,6 +335,7 @@ $(window).on('scroll', function(event){
 				800,
 				'easeOutQuint',
 				function(){
+						$.scrollify.disable();
 				});
 
 				$('section.cxp').animate({
@@ -329,9 +351,14 @@ $(window).on('scroll', function(event){
 	 // ver cxp
 	$('#btn-ver-cxp').on('click', function(e){
  		e.preventDefault();
- 		$.scrollify.disable();
+
 		$("#contacto, footer").hide();
-		$('.slider-drinks-container .btn-volver').click();
+		//colapsa
+		$('.slider-productos-container .btn-volver').click();
+ 		$('.grilla-accesorios-container .btn-volver-accesorios').click();
+ 		$('.slider-drinks-container .btn-volver').click();
+
+
 		$('#seleccion-container').animate({
 			"height" : "0vh"},
 				800,
@@ -345,6 +372,7 @@ $(window).on('scroll', function(event){
 				800,
 				'easeOutQuint',
 				function(){
+						$.scrollify.disable();
 				});
 
 				$('section.vxo').animate({
@@ -357,16 +385,18 @@ $(window).on('scroll', function(event){
 
     });
 	/*------*/
-
+	//btn volver vxo
 	 $('#btn-volver').on('click', function(e){
  			e.preventDefault();
 			$.scrollify.enable();
+			player.stop();
 			$("#contacto, footer").show();
  			$('#seleccion-container').animate({
 				"height" : "100vh"},
 				800,
 				'easeOutQuint',
 				function(){
+
 				});
 
  			 $('section.vxo').animate({
@@ -379,7 +409,7 @@ $(window).on('scroll', function(event){
    	 });
 
  /*------*/
-
+	//btn volver cxp
  	 $('#btn-volver-cxp').on('click', function(e){
  		e.preventDefault();
 			$.scrollify.enable();
@@ -405,10 +435,17 @@ $(window).on('scroll', function(event){
 
 	 $('.btn-ver-accesorios').on('click', function(e){
  		e.preventDefault();
- 		$.scrollify.disable();
 
+
+ 		//colapsa
  		$('.slider-productos-container .btn-volver').click();
+ 		$('.slider-drinks-container .btn-volver').click();
+ 		$('.vxo #btn-volver').click();
+		$('.cxp #btn-volver-cxp').click();
+		player.stop();
+
  		$("#drinks, #parleyvxo, #contacto, footer").hide();
+
 		$('#portada-accesorios').animate({
 			"height" : "0vh"},
 				800,
@@ -421,6 +458,7 @@ $(window).on('scroll', function(event){
 					800,
 					'easeOutQuint',
 					function(){
+						$.scrollify.disable();
 					});
 
 
@@ -450,10 +488,8 @@ $(window).on('scroll', function(event){
 
 
 
-// player video voluntarios
-const player = new Plyr('#player', {
 
-});
+
 
 /*------*/
 
