@@ -1099,10 +1099,10 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/assets\/js\/jquery.elevateZoom-3.0.8.min-min.js",
-		"oF": 0,
-		"sC": 1,
+		"oF": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/assets\/js\/jquery.scrollify.js": {
@@ -1139,10 +1139,10 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/assets\/js\/plyr.min-min.js",
-		"oF": 0,
-		"sC": 1,
+		"oF": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/assets\/sass\/.sass-cache\/1a31a33e10be51f9353da414a1978ded26936e8b\/_agegate.scssc": {
