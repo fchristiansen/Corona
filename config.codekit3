@@ -420,6 +420,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/cerrar.png": {
+		"ft": 32768,
+		"iS": 757,
+		"oA": 0,
+		"oAP": "\/assets\/img\/cerrar.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/img\/favicon.png": {
 		"ft": 32768,
 		"iS": 4524,
@@ -2439,6 +2450,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/assets\/video\/vxo.webm",
+		"oF": 0
+		},
+	"\/docs\/terminos.y.condiciones.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/docs\/terminos.y.condiciones.pdf",
 		"oF": 0
 		},
 	"\/footer.php": {

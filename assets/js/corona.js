@@ -47,9 +47,9 @@ $('.slider-video').owlCarousel({
 
 //slider productos
 $('.slider-productos').owlCarousel({
-	animateOut: 'fadeOut',
- 	 animateIn: 'fadeIn',
-    smartSpeed:500,
+	// animateOut: 'fadeOut',
+ // 	 animateIn: 'fadeIn',
+    smartSpeed:1000,
     loop:false,
     margin:0,
     nav:true,

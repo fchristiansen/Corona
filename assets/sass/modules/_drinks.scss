@@ -126,7 +126,7 @@ section#drinks{
 								}
 								img{
 									&.logo-receta{
-										max-width:117px;
+										max-width:170px;
 										height: auto;
 										margin-bottom: 20px;
 										@media(max-width:767px){
@@ -145,14 +145,14 @@ section#drinks{
 									// 	text-align:center;
 									// }
 									h1{
-										@include font-size(30px);
+										@include font-size(42px);
 										color: $azul;
 										text-transform: uppercase;
 										margin-top: 0;
 										margin-bottom: 40px;
 										font-weight: $extra;
 										@media(max-width:767px){
-											@include font-size(18px);
+											@include font-size(20px);
 											margin-bottom: 5px;
 										}
 									}

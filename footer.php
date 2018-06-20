@@ -7,28 +7,28 @@
 				<div class="rrss">
 					<ul>
 						<li>
-							<a href="">
+							<a href="https://www.facebook.com/cervezacoronachileoficial/" target="_blank">
 								<div class="circle">
 									<i class="fa fa-facebook-official"></i>
 								</div>
 							</a>
 						</li>
 						<li>
-							<a href="" target="_blank">
+							<a href="https://www.instagram.com/cerveza_corona/" target="_blank">
 								<div class="circle">
 									<i class="fa fa-instagram"></i>
 								</div>
 							</a>
 						</li>
 						<li>
-							<a href="" target="_blank">
+							<a href="https://twitter.com/Cerveza_Corona" target="_blank">
 								<div class="circle">
 									<i class="fa fa-twitter "></i>
 								</div>
 							</a>
 						</li>
 						<li>
-							 <a href="" target="_blank">
+							 <a href="https://www.youtube.com/user/CervezaCoronaChile" target="_blank">
 								<div class="circle">
 									<i class="fa fa-youtube-play"></i>
 								</div>
@@ -38,8 +38,8 @@
 				</div><!-- rrss -->
 				<div class="legal">
 					<ul>
-						<li><a href="" target="_blank">TÉRMINOS Y CONDICIONES</a></li> |
-						<li><a hrf="">contacto</a></li>
+						<li><a href="docs/terminos.y.condiciones.pdf" target="_blank">TÉRMINOS Y CONDICIONES</a></li> |
+						<li><a href="#contacto">contacto</a></li>
 					</ul>
 					<p>BEBER CON MODERACIÓN. PROHIBIDA SU VENTA A MENORES DE 18 AÑOS. <br>
 						FAVOR NO COMPARTIR CONTENIDO CON MENORES DE EDAD.</p>
@@ -57,8 +57,7 @@
 			<div class="modal-content">
 			  <div class="modal-body">
 			  	 <button id="cerrar" type="button" class="close" data-dismiss="modal" aria-label="Close">
-			  	 	<!-- <span aria-hidden="true">&times;</span> -->
-			  	 	<i class="fa fa-times-circle" aria-hidden="true"></i>
+			  	 	<img class="close " src="assets/img/cerrar.png" alt="">
 			  	 </button>
 			  	 	<video id="video" controls style="width: 100%; height: auto; margin:0 auto; frameborder:0;">
 						  	<source src="" id="source_mp4" type="video/mp4">
