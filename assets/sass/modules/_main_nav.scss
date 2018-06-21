@@ -64,7 +64,7 @@
 				a{
 					font-family: $font;
 					font-weight: $bold;
-					@include font-size(18px);
+					@include font-size(12px);
 					color: white;
 					text-transform: uppercase;
 					transition: all .3s ease-out;

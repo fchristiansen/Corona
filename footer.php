@@ -39,7 +39,7 @@
 				<div class="legal">
 					<ul>
 						<li><a href="docs/terminos.y.condiciones.pdf" target="_blank">TÉRMINOS Y CONDICIONES</a></li> |
-						<li><a href="#contacto">contacto</a></li>
+						<li><a id="btn-contacto" href="#contacto">contacto</a></li>
 					</ul>
 					<p>BEBER CON MODERACIÓN. PROHIBIDA SU VENTA A MENORES DE 18 AÑOS. <br>
 						FAVOR NO COMPARTIR CONTENIDO CON MENORES DE EDAD.</p>

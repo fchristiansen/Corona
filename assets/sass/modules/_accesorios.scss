@@ -160,22 +160,25 @@ section#accesorios{
 		}
 		.btn-volver-accesorios{
 			@extend %btn-volver;
-			background-color: transparent;
+			background-color: $amarillo;
 			position: absolute;
 			z-index: 100;
 			right: 20px;
 			top: 33px;
-			padding: 10px 15px 10px 30px;
-			border:1px solid white;
+			//padding: 10px 15px 10px 30px;
+			padding: 7px 25px 7px 30px;
+			border:1px solid transparent;
+
 			&:hover{
-				background-color: $amarillo;
-				color: $azul;
+				background-color: $azul;
+				color: white;
+				border:1px solid white;
 			}
 			img{
 			//	margin-right: 10px;
 				position: absolute;
 				left: 11px;
-				top: 8px;
+				top: 5px;
 			}
 			span{
 				display:inline-block;

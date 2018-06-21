@@ -280,7 +280,15 @@ body {
     }
 }
 
+.hamburger-box{
+	width: 34px;
+	height: 4px;
+}
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after{
 
+	width: 34px;
+	height: 4px;
+}
 
 
 

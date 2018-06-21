@@ -32,6 +32,9 @@ section#drinks{
 				margin-top: 20px;
 			}
 		}
+		@media(max-width:767px){
+			bottom: 30px;
+		}
 	}
 	&.bg-drinks{
 		//background de la seccion
@@ -54,7 +57,8 @@ section#drinks{
 			z-index: 100;
 			right: 20px;
 			top: 33px;
-			padding: 10px 15px 10px 30px;
+			//padding: 10px 15px 10px 30px;
+			padding: 7px 25px 7px 30px;
 			border:none;
 			&:hover{
 				background-color: $azul;
@@ -64,7 +68,7 @@ section#drinks{
 			//	margin-right: 10px;
 				position: absolute;
 				left: 11px;
-				top: 8px;
+				top: 5px;
 			}
 			span{
 				display:inline-block;
@@ -195,7 +199,12 @@ section#drinks{
 										}
 
 									} // boton volver
-								}
+
+									@media(max-width:767px){
+										text-align:center;
+										margin-top: 12px;
+									}
+								} // receta drink
 							}
 						}
 

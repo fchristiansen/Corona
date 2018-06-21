@@ -1,6 +1,6 @@
 <section class="cxp">
 		<a id="btn-volver-cxp" class="btn btn-default btn-volver">
-			<img src="assets/img/volver2.png" alt="">
+			<img src="assets/img/volver.png" alt="">
 			<span>volver</span>
 		</a><!-- btn-volver -->
 

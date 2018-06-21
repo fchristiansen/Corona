@@ -335,7 +335,7 @@ $(window).on('scroll', function(event){
 				'easeOutQuint',
 				function(){
 					$.scrollify.disable();
-					$("#contacto, footer").hide();
+					$("#contacto").hide();
 				});
 
 				$('section.cxp').animate({
@@ -373,7 +373,7 @@ $(window).on('scroll', function(event){
 				'easeOutQuint',
 				function(){
 					$.scrollify.disable();
-					$("#contacto, footer").hide();
+					$("#contacto").hide();
 				});
 
 				$('section.vxo').animate({
@@ -445,7 +445,7 @@ $(window).on('scroll', function(event){
 		$('.cxp #btn-volver-cxp').click();
 		player.stop();
 
- 		$("#drinks, #parleyvxo, #contacto, footer").hide();
+ 		$("#drinks, #parleyvxo, #contacto").hide();
 
 		$('#portada-accesorios').animate({
 			"height" : "0vh"},
@@ -460,7 +460,7 @@ $(window).on('scroll', function(event){
 					'easeOutQuint',
 					function(){
 						$.scrollify.disable();
-						$("#contacto, footer").hide();
+						$("#contacto").hide();
 					});
     });
 	 /*------*/
@@ -565,11 +565,6 @@ $('#modalAccesorio').on('hidden.bs.modal', function() {
 });
 
 /*--*/
-
-
-
-
-/*------*/
 
 
 

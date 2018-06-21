@@ -35,7 +35,8 @@ section#productos{
 			z-index: 100;
 			right: 20px;
 			top: 33px;
-			padding: 10px 15px 10px 30px;
+			//padding: 10px 15px 10px 30px;
+			padding: 7px 25px 7px 30px;
 			border:none;
 			&:hover{
 				background-color: $azul;
@@ -45,13 +46,20 @@ section#productos{
 			//	margin-right: 10px;
 				position: absolute;
 				left: 11px;
-				top: 8px;
+				top: 5px;
+				@media(max-width:767px){
+					top: 3px;
+					max-width:9px;
+					height: auto;
+
+				}
 			}
 			span{
 				display:inline-block;
 			}
 			@media(max-width:767px){
-				top: 13px;
+				top: 12px;
+				padding: 2px 25px 2px 30px;
 			}
 		}
 		.slider-productos{
@@ -71,6 +79,17 @@ section#productos{
 							}
 							@media(max-width:767px){
 								background-position: -440px center !important;
+							}
+						}
+						&.bg-corona-710{
+							// @media(max-width:1024px){
+							// 	background-position: -460px center !important;
+							// }
+							// @media(max-width:768px){
+							// 	background-position: -760px center !important;
+							// }
+							@media(max-width:767px){
+								background-position: -220px center !important;
 							}
 						}
 						&.bg-coronita{
@@ -109,17 +128,18 @@ section#productos{
 										padding: 0;
 									}
 									h1{
-										font-weight: $extra;
-										@include font-size(40px);
+										//font-weight: $extra;
+										font-weight: $bold;
+										@include font-size(35px);
 										@media(max-width:767px){
 											@include font-size(20px);
 										}
 										//margin-bottom: 10px;
 									}
 									h2{
-										font-weight: $bold;
-										@include font-size(22px);
-										max-width: 70%;
+										font-weight: $regular;
+										@include font-size(18px);
+										//max-width: 70%;
 										margin-bottom: 20px;
 										@media(max-width:767px){
 											@include font-size(14px);
@@ -135,7 +155,7 @@ section#productos{
 										}
 										&.detalles{
 											li{
-												@include font-size(24px);
+												@include font-size(18px);
 												@media(max-width:767px){
 													@include font-size(14px);
 												}
@@ -151,7 +171,7 @@ section#productos{
 										&.informacion{
 											li{
 												font-weight: $extra;
-												@include font-size(26px);
+												@include font-size(17px);
 												@media(max-width:767px){
 													@include font-size(14px);
 												}
@@ -172,6 +192,7 @@ section#productos{
 										border: none;
 										color: $azul;
 										@include font-size(14px);
+										padding: 5px 20px 5px 20px;
 
 									}
 								} // ficha producto

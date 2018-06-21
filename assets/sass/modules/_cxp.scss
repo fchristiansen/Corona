@@ -7,24 +7,26 @@
 		overflow: hidden;
 		.btn-volver{
 			@extend %btn-volver;
-			background-color: transparent;
+			background-color: $amarillo;
 			position: absolute;
 			z-index: 100;
 			right: 20px;
 			top: 33px;
-			padding: 10px 15px 10px 30px;
-			border:1px solid $azul;
-			color: $azul;
+			padding: 7px 25px 7px 30px;
+		//	padding: 10px 15px 10px 30px;
+		//	border:1px solid $azul;
+			color: white;
 			&:hover{
-				background-color: $amarillo;
-				color: $azul;
-				border:1px solid $azul;
+				background-color: $azul;
+				color: white;
+				//border:1px solid $azul;
 			}
 			img{
 			//	margin-right: 10px;
 				position: absolute;
 				left: 11px;
-				top: 8px;
+				//top: 8px;
+				top: 5px;
 			}
 			span{
 				display:inline-block;

@@ -31,7 +31,7 @@
 					</div> <!-- ficha producto -->
 				</div> <!-- ficha container -->
 			</div>
-			<div class="item" style="background: url('assets/img/ficha-bg-corona-710.png') no-repeat;">
+			<div class="item bg-corona-710" style="background: url('assets/img/ficha-bg-corona-710.png') no-repeat;">
 				<div class="ficha-container">
 					<div class="ficha-producto">
 						<a class="btn btn-default btn-comprar" href="" target="_blank">comprar</a>
