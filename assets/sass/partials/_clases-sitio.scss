@@ -85,7 +85,33 @@ span{
 	}
 }
 
-
+#productos, #accesorios, #drinks, #parleyvxo{
+	position:relative;
+}
+.btn-bajar{
+	@include centerer(true, false);
+	bottom: 20px;
+	display:block;
+	transition: all 0.3s ease-out;
+	&:hover{
+		bottom: 15px;
+	}
+	img{
+		//max-width:0px;
+		//height: auto;
+		@media(max-width:768px){
+			max-width:50px;
+			height: auto;
+		}
+		@media(max-width:767px){
+			max-width:30px;
+			height: auto;
+		}
+	}
+	@media(max-width:767px){
+		bottom: 10px;
+	}
+}
 
 
 

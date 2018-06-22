@@ -99,4 +99,7 @@
 			</div>
 		</div><!-- slider productos -->
  </div><!-- slider-productos-container -->
+	<a class="btn-bajar" href="#accesorios">
+		<img src="assets/img/to-bottom.png" alt="">
+	</a>
 </section><!-- productos -->

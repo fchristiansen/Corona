@@ -105,9 +105,9 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/assets\/css\/plyr-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
 	"\/assets\/fonts\/fontawesome-webfont.eot": {
@@ -202,6 +202,17 @@
 		"oAP": "\/assets\/fonts\/stylesheet-min.css",
 		"oF": 1,
 		"oS": 3
+		},
+	"\/assets\/img\/_caption-productos.png": {
+		"ft": 32768,
+		"iS": 28081,
+		"oA": 0,
+		"oAP": "\/assets\/img\/_caption-productos.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/a.png": {
 		"ft": 32768,
@@ -411,12 +422,12 @@
 		},
 	"\/assets\/img\/caption-productos.png": {
 		"ft": 32768,
-		"iS": 28081,
+		"iS": 29436,
 		"oA": 0,
 		"oAP": "\/assets\/img\/caption-productos.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -595,6 +606,14 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/assets\/img\/loader.gif": {
+		"ft": 4194304,
+		"iS": 18347,
+		"oA": 0,
+		"oAP": "\/assets\/img\/loader.gif",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/logo-agegate.png": {
 		"ft": 32768,
@@ -811,6 +830,14 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/preloader.gif": {
+		"ft": 4194304,
+		"iS": 69396,
+		"oA": 0,
+		"oAP": "\/assets\/img\/preloader.gif",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/img\/prev.png": {
 		"ft": 32768,
 		"iS": 2801,
@@ -846,18 +873,18 @@
 		},
 	"\/assets\/img\/s1.png": {
 		"ft": 32768,
-		"iS": 37289,
+		"iS": 49381,
 		"oA": 0,
 		"oAP": "\/assets\/img\/s1.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/img\/s2.png": {
 		"ft": 32768,
-		"iS": 34930,
+		"iS": 43343,
 		"oA": 0,
 		"oAP": "\/assets\/img\/s2.png",
 		"oF": 0,
@@ -868,18 +895,18 @@
 		},
 	"\/assets\/img\/s3.png": {
 		"ft": 32768,
-		"iS": 18730,
+		"iS": 27461,
 		"oA": 0,
 		"oAP": "\/assets\/img\/s3.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/img\/s4.png": {
 		"ft": 32768,
-		"iS": 25505,
+		"iS": 26640,
 		"oA": 0,
 		"oAP": "\/assets\/img\/s4.png",
 		"oF": 0,
@@ -1527,6 +1554,13 @@
 		"oAP": "\/assets\/sass\/.sass-cache\/70264d7eff92eca5a4917a72e64498a0d519f3a5\/_parleyvxo.scssc",
 		"oF": 1
 		},
+	"\/assets\/sass\/.sass-cache\/70264d7eff92eca5a4917a72e64498a0d519f3a5\/_preloader.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/.sass-cache\/70264d7eff92eca5a4917a72e64498a0d519f3a5\/_preloader.scssc",
+		"oF": 0
+		},
 	"\/assets\/sass\/.sass-cache\/70264d7eff92eca5a4917a72e64498a0d519f3a5\/_productos.scssc": {
 		"cB": 0,
 		"ft": 8192,
@@ -2148,6 +2182,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/sass\/modules\/_preloader.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/modules\/_preloader.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/sass\/modules\/_productos.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2303,6 +2350,17 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/assets\/video\/bg-productos.jpg": {
+		"ft": 16384,
+		"iS": 230461,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/video\/bg-productos.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/video\/drinks-americana.mp4": {
 		"cB": 0,

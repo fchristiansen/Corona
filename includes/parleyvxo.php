@@ -25,6 +25,9 @@
 	</div> <!-- seleccion-container -->
 	<?php include('includes/vxo.php'); ?>
 	<?php include('includes/cxp.php'); ?>
+	<a class="btn-bajar" href="#contacto">
+		<img src="assets/img/to-bottom.png" alt="">
+	</a>
 </section><!-- parleyvxo -->
 
 

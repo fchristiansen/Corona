@@ -33,6 +33,9 @@
 		</div>
 
 		<?php include('includes/accesorios-grilla.php'); ?>
+	  <a class="btn-bajar" href="#drinks">
+		<img src="assets/img/to-bottom.png" alt="">
+	</a>
 </section><!-- accesorios -->
 
 

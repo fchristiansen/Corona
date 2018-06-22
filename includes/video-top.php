@@ -18,11 +18,11 @@
 	    	</div><!-- slider video -->
 
 			<div class="video-container">
-		  		<video id="video-intro-lg" poster="assets/video/video-intro.jpg" playsinline autoplay muted loop>
+		  		<video id="video-intro-lg" poster="assets/video/bg-productos.jpg" playsinline autoplay muted loop>
 				    <source src="assets/video/video-intro.mp4" type="video/mp4">
 				    <source src="assets/video/video-intro.webm" type="video/webm">
 				</video>
-		  		<video id="video-intro-xs" poster="assets/video/video-intro.jpg" playsinline autoplay muted loop>
+		  		<video id="video-intro-xs" poster="assets/video/bg-productos.jpg" playsinline autoplay muted loop>
 				    <source src="assets/video/video-intro-xs.mp4" type="video/mp4">
 				    <source src="assets/video/video-intro-xs.webm" type="video/webm">
 				</video>

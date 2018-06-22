@@ -84,4 +84,7 @@
 			</div> <!-- item -->
 		</div><!-- slider drinks -->
  	</div><!-- slider-drinks-container -->
+ 	<a class="btn-bajar" href="#parleyvxo">
+		<img src="assets/img/to-bottom.png" alt="">
+	</a>
 </section><!-- drinks -->
