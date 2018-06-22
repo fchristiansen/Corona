@@ -608,7 +608,7 @@ $('#video-modal').on('hidden.bs.modal','modal', function () {
 })
 
 $('body').on('hidden.bs.modal', '.modal', function () {
-	$('video').trigger('pause');
+	$('#video').trigger('pause');
 });
 /*----*/
 
