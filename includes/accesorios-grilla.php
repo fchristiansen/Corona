@@ -18,8 +18,22 @@
 					<div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
 						<div class="accesorio-container">
 							<div class="img-accesorio">
-								<a data-toggle="modal" data-target="#modalAccesorio">
-									<img class="img-responsive center-block" src="https://api.fnkr.net/testimg/400x400/00CED1/FFF/?text=img+placeholder">
+								<a href="" data-toggle="modal" data-target="#modalAccesorio">
+									<img class="img-responsive center-block" src="assets/img/zoom/hamaca1-small.jpg">
+								</a>
+							</div>
+							<div class="detalle-accesorio clearfix">
+								<h2>HAMACA DE PLAYA</h2>
+								<p>Esos <strong>momentos de relajo</strong>, disfrútalos junto a la Hamaca Corona</p>
+								<a href="" class="btn btn-default btn-comprar">comprar</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+						<div class="accesorio-container">
+							<div class="img-accesorio">
+								<a >
+									<img class="img-responsive center-block" src="assets/img/zoom/cooler1.jpg">
 								</a>
 							</div>
 							<div class="detalle-accesorio clearfix">
@@ -33,7 +47,7 @@
 						<div class="accesorio-container">
 							<div class="img-accesorio">
 								<a href="">
-									<img class="img-responsive center-block" src="https://api.fnkr.net/testimg/400x400/00CED1/FFF/?text=img+placeholder">
+									<img class="img-responsive center-block" src="assets/img/zoom/bucket1.jpg">
 								</a>
 							</div>
 							<div class="detalle-accesorio clearfix">
@@ -47,7 +61,7 @@
 						<div class="accesorio-container">
 							<div class="img-accesorio">
 								<a href="">
-									<img class="img-responsive center-block" src="https://api.fnkr.net/testimg/400x400/00CED1/FFF/?text=img+placeholder">
+									<img class="img-responsive center-block" src="assets/img/zoom/silla1.jpg">
 								</a>
 							</div>
 							<div class="detalle-accesorio clearfix">
@@ -61,7 +75,7 @@
 						<div class="accesorio-container">
 							<div class="img-accesorio">
 								<a href="">
-									<img class="img-responsive center-block" src="https://api.fnkr.net/testimg/400x400/00CED1/FFF/?text=img+placeholder">
+									<img class="img-responsive center-block" src="assets/img/zoom/destapador1.jpg">
 								</a>
 							</div>
 							<div class="detalle-accesorio clearfix">
@@ -71,20 +85,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
-						<div class="accesorio-container">
-							<div class="img-accesorio">
-								<a href="">
-									<img class="img-responsive center-block" src="https://api.fnkr.net/testimg/400x400/00CED1/FFF/?text=img+placeholder">
-								</a>
-							</div>
-							<div class="detalle-accesorio clearfix">
-								<h2>HAMACA DE PLAYA</h2>
-								<p>Esos <strong>momentos de relajo</strong>, disfrútalos junto a la Hamaca Corona</p>
-								<a href="" class="btn btn-default btn-comprar">comprar</a>
-							</div>
-						</div>
-					</div>
+
 				</div>
 
 			</div>
@@ -108,25 +109,25 @@
 				<div class="col-sm-6 center-height">
 					<div class="contenedor-producto">
 						<div class="img-zoom-wrapper">
-							<img class="img-responsive center-block" id="img-producto-zoom"  src="assets/img/zoom/triumph_small1.jpg" data-zoom-image="assets/img/zoom/triumph_big1.jpg"/>
+							<img class="img-responsive center-block" id="img-producto-zoom"  src="assets/img/zoom/hamaca1-small.jpg" data-zoom-image="assets/img/zoom/hamaca1.jpg"/>
 						</div>
 						<div id="botonera-producto" class="clearfix">
-							<a href="javascript:void(0);" class="active" data-image="assets/img/zoom/triumph_small1.jpg" data-zoom-image="assets/img/zoom/triumph_big1.jpg">
-								<img class="img-responsive" id="img_01" src="assets/img/zoom/thumbs/triumph_thumb1.jpg" />
+							<a href="javascript:void(0);" class="active" data-image="assets/img/zoom/hamaca1-small.jpg" data-zoom-image="assets/img/zoom/hamaca1.jpg">
+								<img class="img-responsive" id="img_01" src="assets/img/zoom/thumbs/hamaca1-thumb.jpg" />
 							</a>
-							<a href="javascript:void(0);" data-image="assets/img/zoom/triumph_small2.jpg" data-zoom-image="assets/img/zoom/triumph_big2.jpg">
-								<img class="img-responsive" id="img_01" src="assets/img/zoom/thumbs/triumph_thumb2.jpg" />
+							<a href="javascript:void(0);" data-image="assets/img/zoom/hamaca2-small.jpg" data-zoom-image="assets/img/zoom/hamaca2.jpg">
+								<img class="img-responsive" id="img_01" src="assets/img/zoom/thumbs/hamaca2-thumb.jpg" />
 							</a>
-							<a href="javascript:void(0);" data-image="assets/img/zoom/triumph_small3.jpg" data-zoom-image="assets/img/zoom/triumph_big3.jpg">
-								<img class="img-responsive" id="img_01" src="assets/img/zoom/thumbs/triumph_thumb3.jpg" />
+							<a href="javascript:void(0);" data-image="assets/img/zoom/hamaca3-small.jpg" data-zoom-image="assets/img/zoom/hamaca3.jpg">
+								<img class="img-responsive" id="img_01" src="assets/img/zoom/thumbs/hamaca3-thumb.jpg" />
 							</a>
 						</div>
 					</div> <!-- contenedor produco -->
 				</div>
 				<div class="col-sm-6 center-height">
 				   	<div class="contenedor-detalle">
-			   			<h2>bucket corona</h2>
-			   			<p>Ideal para conservar las botellas a temperatura justa.</p>
+			   			<h2>HAMACA DE PLAYA</h2>
+			   			<p>Esos <strong>momentos de relajo</strong>, disfrútalos junto a la Hamaca Corona</p>
 			   			<a href="" class="btn btn-default btn-comprar">comprar</a>
 				   	</div>
 				</div>

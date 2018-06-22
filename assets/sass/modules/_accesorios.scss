@@ -166,7 +166,7 @@ section#accesorios{
 			right: 20px;
 			top: 33px;
 			//padding: 10px 15px 10px 30px;
-			padding: 7px 25px 7px 30px;
+			padding: 3px 25px 3px 30px;
 			border:1px solid transparent;
 
 			&:hover{
@@ -178,7 +178,8 @@ section#accesorios{
 			//	margin-right: 10px;
 				position: absolute;
 				left: 11px;
-				top: 5px;
+				max-width:9px;
+				top: 4px;
 			}
 			span{
 				display:inline-block;
