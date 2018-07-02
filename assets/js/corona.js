@@ -164,6 +164,8 @@ $('.slider-drinks').owlCarousel({
 });
 /*----*/
 
+
+
 //slider tips
 $('.slider-tips').owlCarousel({
     loop:false,
@@ -341,6 +343,9 @@ $(window).on('scroll', function(event){
 
 	 $('.slider-drinks-container .btn-volver').on('click', function(e){
 		e.preventDefault();
+		owl.trigger('prev.owl.carousel');
+   	 // owl.trigger('play.owl.autoplay',[1000])
+
 		$('.slider-drinks-container').animate({
 			"left" : "100%"},
 				1000,
@@ -558,13 +563,6 @@ $(window).on('scroll', function(event){
     });
 
  /*------*/
-
-
-
-
-
-
-/*------*/
 
   // ===== smooth scroll to section ====
 

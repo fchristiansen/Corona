@@ -93,6 +93,7 @@ span{
 	bottom: 20px;
 	display:block;
 	transition: all 0.3s ease-out;
+	z-index: 0;
 	&:hover{
 		bottom: 15px;
 	}

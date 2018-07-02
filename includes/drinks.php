@@ -8,7 +8,7 @@
 	</div>
 
 	<div class="slider-drinks-container">
-		<a class="btn btn-default btn-volver">
+		<a id="volver-slider" class="btn btn-default btn-volver">
 			<img src="assets/img/volver.png" alt="">
 			<span>volver</span>
 		</a><!-- btn-volver -->
