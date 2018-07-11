@@ -1,12 +1,12 @@
 section#productos{
 	overflow:hidden;
 	&.bg-productos{
-		position: relative;
-	    background-image: url(../img/bg-productos.jpg);
-	    height: 100%;
-	    background-position: center;
-	    background-repeat: no-repeat;
-	    background-size: cover;
+		position: relative !important;
+	   // background-image: url(../img/bg-productos.jpg);
+	    height: 100% !important;
+	    background-position: center !important;
+	    background-repeat: no-repeat !important;
+	    background-size: cover !important;
 	}
 	.caption-productos{
 		@include centerer(true, true);

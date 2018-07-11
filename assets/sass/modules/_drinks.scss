@@ -92,9 +92,13 @@ section#drinks{
 							background-position: center !important;
 							background-repeat: no-repeat!important;
 							background-size: cover !important;
+
 							@media(max-width:767px){
-								height: 25vh;
+								height: 40vh;
+								background-position: bottom center !important;
 							}
+
+
 							.btn-ver-video{
 								@extend %btn-volver;
 								z-index: 100;
@@ -115,9 +119,11 @@ section#drinks{
 							background-position: center !important;
 							background-repeat: no-repeat!important;
 							background-size: cover !important;
+
 							@media(max-width:767px){
-								height: 75vh;
+								height: 60vh;
 							}
+
 							.receta-container{
 								@include centerer(true, true);
 								width: 70%;
@@ -138,17 +144,11 @@ section#drinks{
 											max-width: 80px;
 											margin-bottom: 10px;
 											margin: 0 auto;
-
-
 										}
 									}
-
 								}
 								.receta-drink{
 									position:relative;
-									// @media(max-width:767px){
-									// 	text-align:center;
-									// }
 									h1{
 										@include font-size(42px);
 										color: $azul;
@@ -178,6 +178,24 @@ section#drinks{
 										margin-right: 0;
 										margin-left: 16px;
 										margin-bottom: 40px;
+										@media(max-width:767px){
+											margin-bottom: 0;
+											margin-left: 0;
+											margin: 0 10px;
+										}
+										@media(max-width:480px){
+											margin-top: 30px;
+										}
+										@media(max-width:414px){
+											margin-top: 30px;
+										}
+										@media(max-width:375px){
+											margin-top:30px;
+										}
+										@media(max-width:320px){
+											margin-top: 10px;
+											margin-bottom:0;
+										}
 										li{
 											@include font-size(14px);
 											color: $azul;
@@ -186,7 +204,23 @@ section#drinks{
 											margin-bottom:15px;
 											@media(max-width:767px){
 												@include font-size(12px);
-												margin-bottom: 5px;
+												margin-bottom: 10px;
+											}
+											@media(max-width:480px){
+												margin-bottom: 15px;
+												@include font-size(12px);
+											}
+											@media(max-width:414px){
+												margin-bottom:15px;
+												@include font-size(12px);
+											}
+											@media(max-width:375px){
+												@include font-size(12px);
+												margin-bottom: 15px;
+											}
+											@media(max-width:320px){
+												@include font-size(11px);
+												margin-bottom: 8px;
 											}
 										}
 									}
@@ -276,17 +310,14 @@ section#drinks{
 			                 }
 			                 outline: none;
 			        }
-
 				         .owl-next {
 				             background: url(../img/next.png) no-repeat !important;
 				             right:0px;
 				                 @media (max-width:1024px){
-
 				               }
 				                @media (max-width:768px){
 				                   background: url(../img/next.png) no-repeat !important;
 				                   right: 0px;
-
 				               }
 				         }
 				         .owl-prev {
@@ -301,7 +332,6 @@ section#drinks{
 
 				               }
 				         }
-
 		}
 	}
 

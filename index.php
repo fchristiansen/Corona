@@ -1,11 +1,11 @@
 <?php include('header.php'); ?>
 
   <body class="home">
-  <div class="preloader-wrapper">
-    <div class="preloader">
-        <img src="assets/img/preloader.gif" alt="Corona">
+    <div class="preloader-wrapper hidden">
+        <div class="preloader">
+            <img src="assets/img/preloader.gif" alt="Corona">
+        </div>
     </div>
-</div>
 	<?php include('includes/main-nav.php'); ?>
 	<?php include('includes/video-top.php'); ?>
 	<?php include('includes/productos.php'); ?>

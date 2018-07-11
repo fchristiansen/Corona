@@ -9,7 +9,7 @@
 			<span>volver</span>
 		</a><!-- btn-volver -->
 		<div class="slider-productos owl-carousel owl-theme">
-			<div class="item bg-corona-light"" style="background: url('assets/img/ficha-bg-corona-light.png') no-repeat;">
+			<div class="item bg-corona-light" style="background: url('assets/img/ficha-bg-corona-light.png') no-repeat;">
 				<div class="ficha-container">
 					<div class="ficha-producto">
 						<a class="btn btn-default btn-comprar" href="" target="_blank">comprar</a>

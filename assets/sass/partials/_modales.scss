@@ -90,15 +90,14 @@
 				margin-bottom: 20px;
 			}
 		}
-	}
-	#botonera-producto{
+			.botonera-producto{
   		@media(max-width:1024px){
 			display: flex;
 	  		align-items: center;
 	  		justify-content: center;
   		}
 	}
- 	#botonera-producto img {
+ 	.botonera-producto img {
  		border:2px solid transparent;
  		@media(max-width:1024px){
 			max-width: 100px;
@@ -114,6 +113,8 @@
  	.active img{
  		border:2px solid $amarillo !important;
  	}
+	}
+
 
 	//------//
 

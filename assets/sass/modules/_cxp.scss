@@ -39,21 +39,56 @@
 		}
 		.intro{
 			text-align:center;
-			padding-top: 50px;
+			padding-top: 60px;
+			img{
+				&.logo-parley-azul{
+					max-width: 216px;
+					margin-bottom: 40px;
+					@media(max-width:767px){
+						max-width: 130px;
+						margin-bottom: 0;
+					}
+				}
+			}
+			.titulo{
+				 h1{
+					@include font-size(32px);
+					color: $azul;
+					text-transform: uppercase;
+					letter-spacing: 18px;
+					font-weight: $extra;
+					margin: 0;
+					padding: 0;
+					line-height: 41px;
+					margin-bottom: 20px;
+					@media(max-width:767px){
+						@include font-size(22px);
+						letter-spacing:8px;
+						margin-top: 20px;
+						//margin-left: 10px;
+
+					}
+				}
+			}
 			p{
-				color: $azul2;
-				text-transform: uppercase;
-				@include font-size(32px);
-				font-weight: $extra;
+				color: #474747;
+				text-transform: none;
+				@include font-size(18px);
+				font-weight: $regular;
 				font-family: $font;
-				margin: 0;
-				letter-spacing: 17px;
-				margin-left: 30px;
+				margin: 0 auto 40px auto;
+				line-height: 36px;
+				max-width: 900px;
+				//letter-spacing: 17px;
+				//margin-left: 30px;
 				@media(max-width:767px){
-					letter-spacing:14px;
-					@include font-size(26px);
-					margin-left: 20px;
-					margin-top: 30px;
+					//letter-spacing:14px;
+					@include font-size(14px);
+					line-height: 26px;
+					padding: 0 15px;
+					margin-top: 20px;
+					//margin-left: 20px;
+					//margin-top: 30px;
 
 				}
 			}
@@ -71,25 +106,60 @@
 				}
 
 			}
-		}
+
+
+		} //intro
 		.estrategias{
+			margin-bottom: 40px;
+			p{
+				color: $celeste;
+				text-transform: uppercase;
+				@include font-size(24px);
+				font-weight: $extra-black;
+				font-family: $font;
+				text-align:center;
+				margin-bottom: 0;
+
+				@media(max-width:1024px){
+					@include font-size(17px);
+				}
+			}
 			img{
 				margin-bottom: 20px;
 				&.letra{
 
+					max-width:300px;
+					@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+						max-width:230px;
+					}
+					@media(max-width:768px){
+						max-width:190px;
+					}
+					@media(max-width:767px){
+						margin-bottom: 10px;
+					}
 				}
 			}
 			ul{
 				list-style-type: none;
 				text-align:center;
 				padding: 0;
+				margin-bottom: 40px;
+				@media(max-width:768px){
+					margin-bottom: 0;
+				}
 				li{
 					color: $gris;
 					text-transform: uppercase;
-					@include font-size(18px);
+					@include font-size(20px);
 					font-weight: $medium;
 					font-family: $font;
-					margin-bottom: 40px;
+					@media(max-width:1024px){
+						@include font-size(16px);
+					}
+					@media(max-width:767px){
+						@include font-size(12px);
+					}
 				}
 			}
 			.letras-xs{
@@ -97,18 +167,24 @@
 				min-height: 225px;
 				img{
 					&.letra{
-						position: absolute;
-						left: -70px;
+						//position: absolute;
+						//left: -70px;
+
+						@media(max-width:767px){
+							max-width:170px;
+						}
+
+					}
+					&.onda{
+						@media(max-width:767px){
+							max-width:130px;
+						}
 					}
 				}
 				ul{
-					position: absolute;
-					max-width: 200px;
-					left: 100px;
-					top:20px;
 					li{
 						margin-bottom: 10px;
-						text-align:left;
+						text-align:center;
 						&:first-child img{
 							margin-bottom: 0;
 						}
@@ -121,10 +197,16 @@
 
 		} // estrategias
 		.title{
-			margin-top: 30px;
+			margin-top: 0px;
 			img{
-				margin-bottom: 0;
-				margin-top: 0;
+				margin-bottom: 20px;
+
+				&.onda2{
+					@media(max-width:767px){
+						max-width: 200px;
+						margin-bottom: 20px;
+					}
+				}
 			}
 			p{
 				font-family: $font;
@@ -154,12 +236,12 @@
 				background-position: center top !important;
 				background-size: cover !important;
 				height: 200px;
-				margin-top: 100px;
+				margin-top: 0px;
 			}
 			.mar-xs{
 				margin-top: 140px;
-				@media(max-width:767px){
-					margin-top: 40px;
+				@media(max-width:1024px){
+					margin-top: 20px;
 				}
 			}
 
@@ -171,55 +253,87 @@
 				&.left{
 					left: 0;
 					@media(max-width:1440px){
-						left: -50px;
+						left: -30px;
 					}
 					@media(max-width:1280px){
-						left: -150px;
+						left: -40px;
 					}
 					@media(max-width:1024px){
-						left: -250px;
+						left: -90px;
+					}
+					@media(max-width:768px){
+						left: -130px;
+						max-width:210px;
+						top: 0px;
 					}
 					@media(max-width:767px){
-						left: -160px;
-						max-width:210px;
-						top: 140px;
+						left: -170px;
+					//	max-width:210px;
+						top: 0px;
 					}
 				}
 				&.right{
 					right: 0;
 					@media(max-width:1440px){
-						right:-50px;
+						right:-30px;
 					}
 					@media(max-width:1280px){
-						right:-150px;
+						right:-40px;
 					}
 					@media(max-width:1024px){
-						right: -250px;
+						right: -90px;
+					}
+					@media(max-width:768px){
+						right: -130px;
+						//max-width:210px;
+						top: 0px;
 					}
 					@media(max-width:767px){
-						right: -160px;
+						right: -170px;
 						max-width:210px;
-						top: 140px;
+						top: 0px;
 					}
 				}
 			}
 			.texto-central{
-				max-width: 680px;
-				padding-top: 40px;
+				max-width: 820px;
+				@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+					max-width:680px;
+				}
 				@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-					max-width:410px;
+					max-width:550px;
 				}
 				h1{
 					font-family: $font;
-					font-weight: $regular;
+					font-weight: $semibold;
 					text-transform: uppercase;
-					color: $gris;
-					@include font-size(34px);
+					color: $azul;
+					@include font-size(25px);
 					text-align:center;
-					margin: 0;
+					margin: 0 0 28px 0;
+					line-height: 37px;
 						@media(max-width:767px){
-							@include font-size(24px);
-							padding: 0 50px;
+							@include font-size(18px);
+							padding: 0 40px;
+							line-height:25px;
+						}
+					}
+					h2{
+						font-weight: $semibold;
+						@include font-size(18px);
+						color: $azul;
+						margin:40px 0;
+						a{
+							text-decoration: none;
+							display:inline-block;
+							transition: all .3s ease-out;
+							color: $azul;
+							&:hover{
+								color: $amarillo;
+							}
+						}
+						@media(max-width:767px){
+							@include font-size(14px);
 						}
 					}
 				p{
@@ -245,14 +359,16 @@
 						@include font-size(18px);
 						text-align:center;
 						margin: 0;
-						line-height:24px;
+						line-height:33px;
 							@media(max-width:767px){
-							@include font-size(16px);
-							padding: 0 50px;
+							@include font-size(14px);
+							padding: 0 20px;
+							line-height: 28px;
+
 						}
 					}
 				}
-			}
+			} // texto central
 		}
 	} // end section cxp
 

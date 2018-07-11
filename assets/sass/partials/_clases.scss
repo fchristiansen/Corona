@@ -160,12 +160,12 @@ body {
 	@media(min-width: 768px){
 		#modalAccesorio{
 			//@media(min-width:768px){
-			&.modal {
+			.modal {
 				  text-align: center;
 				  padding: 0!important;
 				}
 
-				&.modal:before {
+				.modal:before {
 				  content: '';
 				  display: inline-block;
 				  height: 100%;
