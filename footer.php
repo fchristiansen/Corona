@@ -1,4 +1,4 @@
-		<footer class="no-full" data-section-name="contacto">
+		<footer id="footer" class="no-full" data-section-name="contacto">
 			<a id="to-top" class="center-block">
 				<img src="assets/img/up.png" alt="">
 			</a>

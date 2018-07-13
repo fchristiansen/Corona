@@ -150,6 +150,7 @@ $(window).resize(function() {
 
 
 
+
   });
 /*--*/
 
@@ -548,6 +549,9 @@ $('#modalAccesorio').on('hidden.bs.modal', function() {
 });
 
 /*--*/
+
+/*==== concurso ====*/
+
 
 
 

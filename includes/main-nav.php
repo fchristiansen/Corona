@@ -16,7 +16,7 @@
 	        			<li><a href="#accesorios">accesorios</a></li>
 	        			<li><a href="#drinks">corona drinks</a></li>
 	        			<li><a href="#parleyvxo">corona x parley</a></li>
-	        			<li><a href="#contacto">contacto</a></li>
+	        			<li><a href="#concurso">concurso</a></li>
 
 	        		</ul>
 	        	</div>

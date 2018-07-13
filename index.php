@@ -12,7 +12,8 @@
 	<?php include('includes/accesorios.php'); ?>
 	<?php include('includes/drinks.php'); ?>
 	<?php include('includes/parleyvxo.php'); ?>
-	<?php include('includes/contacto.php'); ?>
+	<?php include('includes/concurso.php'); ?>
+	<?php //include('includes/contacto.php'); ?>
 
 <?php include('footer.php'); ?>
 

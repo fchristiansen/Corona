@@ -1,0 +1,104 @@
+section#concurso{
+	overflow:hidden;
+	&.bg-concurso{
+		position: relative !important;
+	   background-image: url(../img/bg-concurso.jpg);
+	    height: 100% !important;
+	    background-position: center !important;
+	    background-repeat: no-repeat !important;
+	    background-size: cover !important;
+	    @media(max-width:768px){
+			background-image: url(../img/bg-concurso-xs.jpg);
+			height: 100% !important;
+			background-position: center !important;
+			background-repeat: no-repeat !important;
+			background-size: cover !important;
+	    }
+	}
+
+	#home{
+		@include centerer(true, true);
+		//width: 90%;
+		text-align: center;
+		top:55%;
+		width: 90%;
+		@media(	min-width: 1440px){
+			top: 53%;
+		}
+		@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+			top:50%;
+		}
+		img{
+			&.logo{
+				max-width: 120px;
+				height: auto;
+				display: table;
+				margin: 0 auto;
+				margin-bottom: 30px;
+			}
+			&.logo-unimarc{
+				@extend .logo;
+				margin-top: 40px;
+				margin-bottom: 0;
+				max-width: 70px;
+				height: auto;
+			}
+		}
+		h1{
+			font-weight: $extra-black;
+			text-transform: uppercase;
+			color: white;
+			font-size: 30px;
+			padding: 0;
+			margin-bottom: 10px;
+			margin-top: 0;
+			@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+				font-size: 40px;
+			}
+			@media(max-width:767px){
+				font-size:22px;
+			}
+		}
+		p{
+			font-weight: $medium;
+			text-transform: uppercase;
+			color: white;
+			font-size: 14px;
+			margin-bottom: 18px;
+			@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+				font-size: 20px;
+			}
+			@media(max-width:767px){
+				max-width: 280px;
+				margin: 0 auto 20px auto;
+			}
+		}
+		.btn-amarillo{
+			background-color: $amarillo;
+			color: $azul;
+			font-weight: $extra-black;
+			text-transform: uppercase;
+			font-size: 17px;
+			border: none;
+			border-radius: 5px;
+			padding-left: 50px;
+			padding-right: 50px;
+			transition: all .4s ease-out;
+			&:hover{
+				background-color: $azul;
+				color: $amarillo;
+			}
+			@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+				font-size: 20px;
+			}
+		}
+
+
+	}
+
+
+
+
+
+
+} // concurso
